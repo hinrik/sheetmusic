@@ -30,15 +30,13 @@
       <<
         { bes2.\mp( des4 | c2 as2) }
         \\
-        { ges1 | as1 }
-        { es1 | es1 }
+        { <ges es>1 <as es>1 }
       >>
 
       <<
-        {bes'2.( ges8. bes16 | as2 es2) }
+        {bes2.( ges8. bes16 | as2 es2) }
         \\
-        { ges1 | es1 }
-        { des1 | c1 }
+        { <ges des>1 <es c>1 }
       >>
     }
   }
