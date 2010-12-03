@@ -28,7 +28,7 @@
       as8( ces ces des des\!\mf\> es es f\!)
 
       <<
-        { bes2.\mp( des4 | c2 as2) }
+        { bes2.( des4 | c2 as2) }
         \\
         { <ges es>1 <as es>1 }
       >>
@@ -57,7 +57,7 @@
       <f as des>1
 
       <<
-        { es8( ges ges as as bes bes des) | c( as as es es as as c) }
+        { es8^\mp( ges ges as as bes bes des) | c( as as es es as as c) }
         \\
         { <ges, bes es>1 <c es as>1 }
       >>
