@@ -57,12 +57,13 @@
       <f as des>1
 
       <<
-        { es8( ges ges as as bes bes des) | c( as as es es as as c)}
+        { es8( ges ges as as bes bes des) | c( as as es es as as c) }
         \\
         { <ges, bes es>1 <c es as>1 }
       >>
+
       <<
-        { bes'8( ges ges des des ges ges bes) | as^\<( es es c c es es as)\!}
+        { bes'8( ges ges des des ges ges bes) | as^\<( es es c c es es as)\! }
         \\
         { <ges des bes>1 <es c as>1 }
       >>
