@@ -7,6 +7,8 @@
   instrument = "Piano solo"
 }
 
+#(set-global-staff-size 26)
+
 \new PianoStaff <<
   \tempo 4 = 60
   \new Staff {
