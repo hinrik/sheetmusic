@@ -53,7 +53,7 @@
           { <ges des>1 | <c, es>1 }
         >>
 
-        s1
+        s1 \bar "|."
       }
     }
     \new Staff {
@@ -110,7 +110,7 @@
 
         <f' des as des,>1\arpeggio\fermata
         R1 R1 R1 R1
-        <bes ges es bes bes,>1\arpeggio
+        <bes ges es bes bes,>1\arpeggio \bar "|."
       }
     }
   >>
