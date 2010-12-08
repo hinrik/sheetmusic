@@ -9,20 +9,20 @@
 
 \score {
   \new PianoStaff <<
-    %\tempo
+    %\tempo 4 = 60
     \new Staff {
       \clef treble
-      %\key
+      %\key c \major
       \numericTimeSignature
-      %\time
+      %\time 4/4
       \relative c' {
       }
     }
     \new Staff {
       \clef bass
-      %\key
+      %\key c \major
       \numericTimeSignature
-      %\time
+      %\time 4/4
       \relative c {
       }
     }
