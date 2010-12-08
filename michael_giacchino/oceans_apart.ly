@@ -7,7 +7,6 @@
   instrument = "Piano solo"
 }
 
-#(set-global-staff-size 26)
 \score {
   \new PianoStaff <<
     \tempo 4 = 60
@@ -19,9 +18,11 @@
       \relative c' {
         es8( ges ges as as bes bes des | c2 as2)
         bes8( ges ges des des ges ges bes | as2 es2)
+        \break
         ces'8( ges ges es ces' ges ges es | bes'2 ges2)
         des8(\< es es ges des es es as)
         as8( ces ces des des\!\mf\> es es f\!)
+        \break
 
         <<
           { bes2.( des4 | c2 as2) }
@@ -34,6 +35,8 @@
           \\
           { <ges des>1 | <es c>1 }
         >>
+
+        \break
 
         <es ges ces es>2(\f \times 2/3 { <es ges ces es>4 <es ges ces es>4 <ges ces es ges>4 }
         <des ges bes des>2 <ges, bes des ges>2)

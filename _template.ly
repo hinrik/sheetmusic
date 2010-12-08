@@ -7,8 +7,6 @@
   instrument = "Quux"
 }
 
-#(set-global-staff-size 26)
-
 \score {
   \new PianoStaff <<
     %\tempo
