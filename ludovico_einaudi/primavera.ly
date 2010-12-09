@@ -4,7 +4,7 @@
 \version "2.12.3"
 
 \relative c' {
-  \key c \minor
+  \key g \minor
   \time 3/4
   c8 g' c g c g
   dis g c g c g
