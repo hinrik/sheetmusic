@@ -5,6 +5,7 @@
   subtitle = \markup { "from" \italic "Lost 3x13: \"The Man From Tallahassee\"" }
   composer = "Michael Giacchino"
   instrument = "Piano solo"
+  arranger = "Originally transcribed by Joe Cardello"
 }
 
 \score {
