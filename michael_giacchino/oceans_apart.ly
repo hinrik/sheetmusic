@@ -112,7 +112,7 @@
         >>
 
         <f' des as des,>1\arpeggio\fermata
-        R1 R1 R1 R1
+        R1*4
         <bes ges es bes bes,>1\arpeggio \bar "|."
       }
     }
