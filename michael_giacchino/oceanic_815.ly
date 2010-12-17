@@ -55,9 +55,9 @@
       \numericTimeSignature
       \time 4/4
       \relative c' {
-        <f bes,>2. <f a,>4
-        <g bes,>1
-        bes,2( c)
+        <bes f'>2. <a f'>4
+        <bes g'>1
+        bes2( c)
         \clef bass
         <d, b'>2 <d b'>4 <d b'>
         \break
@@ -70,7 +70,7 @@
 
         <a d fis>
         <g c>2. <g b>4
-        <g d>1
+        <g d'>1
         <a, c e g>~
         \break
 
