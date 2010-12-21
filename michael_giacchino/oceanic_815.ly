@@ -274,8 +274,13 @@
 
         <c e g>~
         <c e g>
-        <f, c' f a>~
-        <f c' f a>
+        % The following chord was originally <f, c' f a>~<f c' f a>
+        % but that is impossible to play with one hand, and the right hand
+        % is busy on the other end of the keyboard. I suspect the original
+        % transcription it just flawed, so I moved the A down, which sounds
+        % good and is actually playable.
+        <f, a c f>~
+        <f a c f>
         \break
 
         <c' e g>
