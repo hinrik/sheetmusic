@@ -352,6 +352,7 @@
         <c' c'>2 <c c'>
         <fis, fis'> <fis fis'>
         <c' fis c'>1\fermata
+        \bar "|."
       }
     }
   >>
