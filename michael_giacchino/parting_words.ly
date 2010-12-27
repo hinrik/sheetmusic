@@ -82,7 +82,7 @@
         \\
           {
             f,4( ges as bes~
-            bes1
+            bes1)
           }
         >>
         \break
@@ -124,15 +124,41 @@
         <as as'>1)
         \break
 
-        as,4( des es f)
+        as,4\mf( des es f)
         c( bes f' ges)
         f( ges as bes)
         \break
 
-        des( es f ges)
-        <f, f'>( <des des'>2.
+        des,( es f ges)
+        <f f'>( <des des'>2.)
         <ges ges'>4( <des des'>2.)
         \break
+
+        <as' as'>4( <des, des'>2.)
+        <bes' bes'>4( <des, des'>2.)
+        <des' des'>4( <as as'>2 <es' es'>4
+        \break
+
+        <des des'>8 <c c'> <bes bes'>2~ <bes bes'>8) <es es'>(
+        <es es'>4 <des des'>2) <as' as'>4(
+        <ges ges'>8 <f f'> <des des'>2.)
+        \break
+
+        <f, as des f>4( <des f as des>2~ <des f as des>8) <des f as des>
+        <ges bes des ges>4( <des ges bes des>2~ <des ges bes des>8) <des ges bes des>
+        <as' des f as>4( <des, f as des>2~ <des f as des>8) <des f as des>
+        \break
+
+        <bes' des ges bes>4( <des, ges as des>2~ <des ges as es'>8) <des' ges as es'>
+        <f as des f>4( <des f as des>2~( <des f as des>8) <des f as des>
+        <ges bes des ges>4( <des ges bes des>2~ <des ges bes des>8) <des ges bes des>
+        \break
+
+        <as' des f as>4( <des, f as des>2~ <des f as des>8) <des f as des>
+        <des' ges c>2 <bes des ges bes>
+        c bes
+        <des,,, f as des>1\fermata
+        \bar "|."
       }
     }
     \new Staff {
@@ -182,7 +208,7 @@
         >>
         \clef treble
 
-        as'4( des es f
+        as'4( des es f~
         f2) as,4( des
         c bes f' ges~
 
@@ -212,7 +238,7 @@
           { <des, des'>1 }
         >>
         r4 <des' ges bes des>4 <des ges c des> <des ges bes des>
-        r4 <es ges c des> <es ges c des> <es ges c des>
+        r4 <f as c des> <f as c des> <f as c des>
 
         r4 <des ges bes des> <des ges c des> <des ges bes des>
         r2
@@ -229,6 +255,29 @@
         <des bes' ges' bes>\arpeggio
         <des' f as>4^\p <des f as>^\< <des f as> <des f as>^\!\mf
         <des ges bes>^\markup { \italic "sim." } <des ges bes> <des ges bes> <des ges bes>
+
+        <des f c'>^\markup { \italic "sim." } <des f c'> <des f c'> <des f c'>
+        <bes des ges bes>^\markup { \italic "sim." } <bes des ges bes> <bes des ges bes> <bes des ges bes>
+        <des f as>^\markup { \dynamic "p" \italic "cresc." } <des f as> <des f as> <des f as>
+
+        <des ges bes> <des ges bes> <des ges bes> <des ges bes>
+        <des f c'> <des f c'> <des f c'> <des f c'>
+        <bes des ges bes> <bes des ges bes> <bes des ges bes> <bes des ges bes>^\f
+
+        <as, as'>( <des des'> <es es'> <f f'>)
+        <c c'>( <bes bes'> <f' f'> <ges ges'>)
+        <f f'>( <ges ges'> <as as'> <bes bes'>)
+
+        <des, des'>( <es es'> <f f'> <ges ges'>)
+        <f' as des f>^\ff( <des f as des>) <des,, des'>4. <des des'>8
+        <ges'' bes des ges>4( <des ges bes des>) <des,, des'>4. <des des'>8
+
+        <as''' des f as>4( <des, f as des>) <des,, des'>4. <des des'>8
+        \clef treble
+        <des'''' ges bes>2^\ff <des ges as>
+        as'^\markup { \italic "rit." } ges
+        \clef bass
+        <des,,,, des'>1^\p\fermata
       }
     }
   >>
