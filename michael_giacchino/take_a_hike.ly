@@ -66,6 +66,34 @@
         d16( c d8\staccato) c g'~ g2
         r2 r8 <as as'>8( <g g'>->\staccato) r8
         \break
+
+        r1 r1
+        \tempo 4 = 80
+        c,,8( g'4 c,8 es4 g)
+        \break
+
+        c,8( g'4 c,8 es4 g)
+        c,8( g'4 c,8 es4 g)
+        c,8( g'4 c,8 es4 g)
+        \break
+
+        <c es g>1~
+        <c es g>
+        <b d g>~
+        \break
+
+        <b d g>
+        <c es g>~
+        <c es g>
+        \break
+
+        <a c f>
+        \clef bass
+        <f,,, f'>
+        \clef treble
+        \arpeggioNormal
+        <c''''' d es f>\arpeggio
+        \break
       }
     }
     \new Staff {
@@ -117,6 +145,37 @@
         r8 <d d'>\staccato d''16( c d8\staccato) d,( f\staccato) a( bes\staccato)
         <g, g'>\staccato r8 r8 g'\staccato d'16( c d8\staccato) r8 <g,, g'>\staccato
         r8 <d d'>\staccato d''16( c d8\staccato) <d,, d'>\staccato <f f'>\staccato <a a'>\staccato <bes bes'>\staccato^\ff
+
+        <g g'>1^\markup { \italic "rit." }^\>
+        <<
+          { g' }
+        \\
+          { es2 d }
+        >>
+        <c, c'>1^\!\mp~
+
+        <c c'>
+        <c c'>~
+        <c c'>
+        \clef treble
+
+        <<
+          {
+            c'''8( g'4 c,8 es4 g)
+            c,8( g'4 c,8 es4 g)
+            c,8( g'4 c,8 es4 g)
+            c,8( g'4 c,8 es4 g)
+            c,8( g'4 c,8 es4 g)
+            c,8( g'4 c,8 es4 g)
+            c,8( g'4 c,8 es4 g)
+            c,8( g'4 c,8 es4 g)
+            c,8^\pp( g'4 c,8 es4 g)
+          }
+        \\
+          {
+            es,1 es es es es es es es
+          }
+        >>
       }
     }
   >>
