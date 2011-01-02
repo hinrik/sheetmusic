@@ -274,11 +274,12 @@
 
         <c e g>~
         <c e g>
-        % The following chord was originally <f, c' f a>~<f c' f a>
-        % but that is impossible to play with one hand, and the right hand
-        % is busy on the other end of the keyboard. I suspect the original
-        % transcription it just flawed, so I moved the A down, which sounds
-        % good and is actually playable.
+        % The following chord was originally <f, c' f a>~<f c' f a> but that
+        % is impossible to play with the left hand. It can be played with the
+        % the right hand, but that would require very awkward movements
+        % because the right hand is currently playing a melody on that side
+        % of the keyboard. I suspect the original transcription is just
+        % flawed, so I lowered the A note, which sounds good and is playable.
         <f, a c f>~
         <f a c f>
         \break
@@ -301,16 +302,18 @@
 
         <g b e g>~
         <g b e g>
-        <f c' f a>~\arpeggio
-        <f c' f a>
+        % this was originally <f c' f a>, see comment above
+        <f a c f>~\arpeggio
+        <f a c f>
         \break
 
         \set PianoStaff.connectArpeggios = ##t
 
         <c' e g c>~\arpeggio
         <c e g c>
-        <f, c' f a>~\arpeggio
-        <f c' f a>
+        % this was originally <f, c' f a>, see comment above
+        <f, a c f>~\arpeggio
+        <f a c f>
         \break
 
         <g c e g>\arpeggio
