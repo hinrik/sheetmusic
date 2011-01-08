@@ -17,25 +17,25 @@
       \numericTimeSignature
       \time 4/4
       \relative c' {
-        r8 a_\p( c a) r2
-        r8 a( b a) r2
-        r8 a( c a) r2
-        r8 a( b a) r2
+        r8 a_\p c a r2
+        r8 a b a r2
+        r8 a c a r2
+        r8 a b a r2
         \break
 
         <<
           {
-            r2 r8 a'( c a)
-            r2 r8 a( b a)
-            r2 r8 a( c a)
+            r2 r8 a' c a
+            r2 r8 a b a
+            r2 r8 a c a
             r2 r8 a b4
           }
         \\
           {
-            r8 a,( c a) r2
-            r8 a( b a) r2
-            r8 a( c a) r2
-            r8 a( b a) r2
+            r8 a, c a r2
+            r8 a b a r2
+            r8 a c a r2
+            r8 a b a r2
           }
         >>
         \break
@@ -122,39 +122,39 @@
           {
             r8 a'( c a4) a a8
             r8 a( b a4) a a8
-            r8 a c a4 a a8
+            r8 a( c a4) a a8
             r8 a( b a4) a a8
 
-            r4. a4 a8( c a)
-            r8 a4 a a8( b a)
-            r4. a4 a8( c a)
+            r4. a4 a8 c a
+            r8 a4 a a8 b a
+            r4. a4 a8 c a
             r8 a4 a a r8
 
             r8 a( c a4) a a8
             r8 a( b a4) a a8
-            r8 a c a4 a a8
+            r8 a( c a4) a a8
             r8 a( b a4) a a8
 
             r8 a( c a4) r8 r4
             r8 a( b a4) a a8
-            r8 a c a4 a a8
+            r8 a( c a4) a a8
             r8 a4 a a8 c a
-            r8 a4 a a8( c a)
+            r8 a4 a a8 c a
 
             r8 a( c a4) a a8
             r8 a( b a4) a a8
             r8 a( c a4) a a8
             r8 a( b a4) a a8
 
-            r4. a4 a8( c a)
-            r8 a4 a a8( b a)
-            r4. a4 a8( c a)
+            r4. a4 a8 c a
+            r8 a4 a a8 b a
+            r4. a4 a8 c a
             r8 a4 a a r8
 
             r8 a( c a4) a a8
             r8 a( b a4) a a8
-            r8 a4 a a8( c a)
-            r8 a4 a a8( b a)
+            r8 a4 a a8 c a
+            r8 a4 a a8 b a
 
             r8 a( c a4) a a8
             r8 a( b a4) a a8
