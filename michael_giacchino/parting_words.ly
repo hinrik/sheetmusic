@@ -108,7 +108,9 @@
           {
             <f, as>1_\markup { \dynamic "p" \italic "a tempo" }
             <es f>1
-            <ges bes des>
+            % The original has an additional ges below the bes here.
+            % I moved it to the right hand for easier playing.
+            <bes' des>
             <bes des es>
           }
         >>
@@ -227,7 +229,13 @@
         >>
 
         des8( c bes4~ bes4.) es8
-        f4( des2) as'4
+        <<
+          % In the original, this note is played by the right hand,
+          % but I put it here because I find it easier to play it this way.
+          { ges1 }
+        \\
+          { f4( des2) as'4 }
+        >>
         ges8( f des2)
         \clef bass
         <f,,, f'>4
