@@ -191,7 +191,8 @@ lower = \relative c, {
 
 dynamics = {
   s1*58
-  s1\>s1\!
+  s8\> s s s s s s s
+  s s s s s s s s\!
 }
 
 pedal = {
