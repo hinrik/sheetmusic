@@ -15,7 +15,7 @@ global = {
 }
 
 upper = \relative c' {
-  a
+  \clef treble
 }
 
 lower = \relative c {
