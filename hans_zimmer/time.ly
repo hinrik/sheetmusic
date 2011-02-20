@@ -148,7 +148,7 @@ upper = \relative c {
   b'
   b,
   fis'\fermata
-  \bar ":|"
+  \bar "|."
 }
 
 lower = \relative c {
