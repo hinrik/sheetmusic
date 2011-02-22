@@ -202,15 +202,15 @@ lower = \relative c {
       d( a' <d, g> e
       <a, fis'> e' d) a8 b
 
-      r4 <b' c>---. <a c>---. <fis a c>---.
-      r4 <fis g>---. <e g>---. <b g'>---.
-      r4 <b' c>---. <d, g b>---. <e g b>---.
-      r4 <e fis>---. <d fis>---. <a fis'>8 b
+      r4 <b' c>-_ <a c>-_ <fis a c>-_
+      r4 <fis g>-_ <e g>-_ <b g'>-_
+      r4 <b' c>-_ <d, g b>-_ <e g b>-_
+      r4 <e fis>-_ <d fis>-_ <a fis'>8 b
 
-      r4 <b' c>---. <a c>---. <fis a c>---.
-      <b c>---. <a c>---.  <g c>---. <fis c'>---.
-      r4 <a b>---. <d, g b>---. <e g b>---.
-      r4 <e fis>---. <d fis>---. <a fis'>8 b
+      r4 <b' c>-_ <a c>-_ <fis a c>-_
+      <b c>-_ <a c>-_  <g c>-_ <fis c'>-_
+      r4 <a b>-_ <d, g b>-_ <e g b>-_
+      r4 <e fis>-_ <d fis>-_ <a fis'>8 b
     }
   \\
     {
