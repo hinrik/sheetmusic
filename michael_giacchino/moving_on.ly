@@ -17,11 +17,9 @@
       \numericTimeSignature
       \time 4/4
       \relative c' {
-        d1
-        d1
-        d1
-        d1
+        R1*4
         \break
+
         <fis a cis d>4 fis a2
         <fis g a>4 cis' a2
         <fis a>4 fis a2
@@ -172,13 +170,13 @@
       \key d \major
       \numericTimeSignature
       \time 4/4
-      \relative c {
-        r1
-        r1
-        r1
-        r1
+      \relative c' {
+        d1
+        d
+        d
+        d
 
-        <d fis a d>
+        <d, fis a d>
         g1
         <fis a cis>
         <b, d g b>
