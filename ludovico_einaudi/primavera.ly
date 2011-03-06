@@ -62,17 +62,18 @@
       \key c \minor
       \time 3/4
       \relative c' {
-        c8^\markup { \dynamic "p" \italic "legato" } g' c g c g
-        es g c g c g
-        d g c g c g
-        bes, g' c g c g
-        \break
+        \repeat volta 2 {
+          c8^\markup { \dynamic "p" \italic "legato" } g' c g c g
+          es g c g c g
+          d g c g c g
+          bes, g' c g c g
+          \break
 
-        c, g' c g c g
-        es g c g c g
-        d g c g c g
-        c g c g c4
-        \bar ":|"
+          c, g' c g c g
+          es g c g c g
+          d g c g c g
+          c g c g c4
+        }
         c2.
         \break
 
