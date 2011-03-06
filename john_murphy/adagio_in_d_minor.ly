@@ -237,9 +237,11 @@ pedal = {
 }
 
 \score {
-  \new PianoStaff = "PianoStaff_pf" <<
-    \new Staff = "Staff_pfUpper" << \global \upper \dynamics \pedal >>
-    \new Staff = "Staff_pfLower" << \global \lower \dynamics \pedal >>
-  >>
+  \unfoldRepeats {
+    \new PianoStaff = "PianoStaff_pf" <<
+      \new Staff = "Staff_pfUpper" << \global \upper \dynamics \pedal >>
+      \new Staff = "Staff_pfLower" << \global \lower \dynamics \pedal >>
+    >>
+  }
   \midi { }
 }
