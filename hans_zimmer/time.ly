@@ -350,7 +350,6 @@ pedal = {
       pedalSustainStrings = #'("Ped." "*Ped." "*")
       pedalUnaCordaStrings = #'("una corda" "" "tre corde")
       \override DynamicLineSpanner #'Y-offset = #0
-      \override TextScript #'font-size = #2
       \override TextScript #'font-shape = #'italic
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
     }
