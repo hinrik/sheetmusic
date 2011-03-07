@@ -191,8 +191,7 @@ lower = \relative c, {
 
 dynamics = {
   s1*58
-  s8\> s s s s s s s
-  s s s s s s s s\!
+  s8\> s8*14 s8\!
 }
 
 pedal = {
@@ -224,7 +223,6 @@ pedal = {
       pedalSustainStrings = #'("Ped." "*Ped." "*")
       pedalUnaCordaStrings = #'("una corda" "" "tre corde")
       \override DynamicLineSpanner #'Y-offset = #0
-      \override TextScript #'font-size = #2
       \override TextScript #'font-shape = #'italic
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
     }
