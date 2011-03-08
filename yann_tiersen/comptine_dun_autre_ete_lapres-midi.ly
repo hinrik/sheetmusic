@@ -53,6 +53,15 @@ upper = \relative c'' {
     }
     { a-1->) d-2 a'-5 a, d a' a, d a' a, d a' a, d a'8 }
   }
+
+  \repeat volta 2 {
+    r8 g16-1( fis-2 g8-1 b16-3 c b2)
+    r8 fis16-2( g-3 fis8 g16-3 a g2)
+    \break
+
+    r8 fis16-2( e fis8 b16-4 c b2)
+    r8 fis16-2( e fis2.)
+  }
 }
 
 foo = {
@@ -112,6 +121,8 @@ lower = \relative c' {
       >>
     }
   }
+
+  \repeat volta 2 { \foo }
 }
 
 dynamics = {
@@ -144,7 +155,14 @@ dynamics = {
   }
   \alternative {
     { s16\> s16*14 s16\! }
-    { s16\> s16*6 s16\! s16 s16-"Ralentir..." s16*7 }
+    { s16\> s16*6 s16\! s16 s16-"Ralentir..." s16*6 }
+  }
+
+  \repeat volta 2 {
+    s16*3 s16\p s16*12
+    s16\< s16*14 s16\!
+    s1
+    s16\> s16*14 s16\!
   }
 }
 
