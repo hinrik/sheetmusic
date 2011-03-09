@@ -93,6 +93,69 @@ upper = \relative c'' {
   \override TextScript #'font-size = #-2
   <c''''' des es fes>\arpeggio^\markup { \italic "(very quietly... L.H. still same dynamic)" }
   \break
+
+  \times 2/3 { <c des es fes>4( <b c d es> <ais b cis d> } <gis a bis cis>2)
+  <g, g'>1
+  <a a'>
+  \break
+
+  <c c'>
+  <as as'>
+  <c c'>
+  \break
+
+  <d d'>
+  <g g'>
+  <fis fis'>
+  \break
+
+  <c c'>8( <g' g'>4 <c, c'>8 <es es'>4 <g g'>)
+  <c, c'>8( <g' g'>4 <c, c'>8 <es es'>4 <g g'>)
+  <c, c'>8( <g' g'>4 <c, c'>8 <es es'>4 <g g'>)
+  \break
+
+  <c, c'>8( <g' g'>4 <c, c'>8 <es es'>4 <g g'>)
+  <c, c'>8( <g' g'>4 <c, c'>8 <es es'>4 <g g'>)
+  <c, c'>8( <g' g'>4 <c, c'>8 <es es'>4 <g g'>)
+  \break
+
+  <c, c'>8( <g' g'>4 <c, c'>8 <es es'>4 <g g'>)
+  <c, c'>8( <g' g'>4 <c, c'>8 <es es'>4 <g g'>)
+  R1
+  \bar "||"
+  \key c \minor
+  \break
+
+  R1-"poco accel. to end"
+  R1*3
+  c,,8 r c r c r c r
+  c r c r c( d-.) c( bes-.)
+  \break
+
+  c r c r c r c r
+  c r c r c( d-.) c( bes-.)
+  r4 <c' c'>8( <f f'>~ <f f'>4) <g, g'>16( <f f'> <g g'>8-.)
+  \break
+
+  <bes bes'>2( <d d'>)
+  <es es'>16( <d d'> <es es'>8-.) <d d'>8( <bes bes'>~ <bes bes'>2)
+  r2 r8 <as as'>( <g g'>->-.) r8
+  \break
+
+  r4 <c c'>8( <f f'>~ <f f'>4) <g g'>16( <f f'> <g g'>8-.)
+  <es es'>2( <as as'>)
+  <g g'>16( <f f'> <g g'>8-.) <f f'>( <d d'>~ <d d'>2)
+  \break
+
+  r2 r8 <as' as'>( <g g'>-.->) r8
+  r4 <c, c'>8( <f f'>~ <f f'>4) <g g'>16( <f f'> <g g'>8-.)
+  <es es'>2 <as as'>8( <bes bes'>4.)
+  \break
+
+  <g g'>16( <f f'> <g g'>8-.) <f f'> <c' c'>~ <c c'>2
+  r2 r8 <des, des'>-.-> <c c'>-.-> r8
+  R1
+  \bar "|."
 }
 
 lower = \relative c, {
@@ -171,6 +234,77 @@ lower = \relative c, {
       es,1 es es es es es es es
     }
   >>
+
+  c'8( g'4 c,8 es4 g)
+  c,8( g'4 c,8 es4 g)
+  c,8( g'4 c,8 es4 g)
+
+  c,8( g'4 c,8 es4 g)
+  c,8( g'4 c,8 es4 g)
+  c,8( g'4 c,8 es4 g)
+
+  c,8( g'4 c,8 es4 g)
+  c,8( g'4 c,8 es4 g)
+  c,8( g'4 c,8 es4 g)
+  \clef bass
+
+  <<
+    {
+      <c,, e g>1~
+      <c e g>
+      <d g b>~
+
+      <d g b>
+      <c es g c>
+      <es g c es>
+
+      <f a c f>~
+      <f a c f>
+      s1
+    }
+  \\
+    {
+      s1
+      <c,, c'>
+      s1
+
+      <g' g'>
+      s1
+      r2 <c, c'>
+
+      s1
+      <f f'>
+      <c c'>^\fermata
+    }
+  >>
+
+  c'8-. r4 c8-. g'16( f g8-.) r8 c,-.
+  r8 g8-. g'16( f g8-.) g,8( bes-.) d( es-.)
+  c-. r4 c8-. g'16( f g8-.) r8 c,-.
+
+  r8 g8-. g'16( f g8-.) g,8( bes-.) d( es-.)
+  c-. r4 c8-. g'16( f g8-.) r8 c,-.
+  r8 g8-. g'16( f g8-.) g,8( bes-.) d( es-.)
+
+  c-. r4 c8-. g'16( f g8-.) r8 c,-.
+  r8 g8-. g'16( f g8-.) g,8( bes-.) d( es-.)
+  c-. r4 c8-. g'16( f g8-.) r8 c,-.
+
+  r8 g8-. g'16( f g8-.) g,8( bes-.) d( es-.)
+  c-. r4 c8-. g'16( f g8-.) r8 c,-.
+  r8 g8-. g'16( f g8-.) g,8( bes-.) d( es-.)
+
+  c-. r4 c8-. g'16( f g8-.) r8 c,-.
+  r8 g8-. g'16( f g8-.) g,8( bes-.) d( es-.)
+  c-. r4 c8-. g'16( f g8-.) r8 c,-.
+
+  r8 g8-. g'16( f g8-.) g,8( bes-.) d( es-.)
+  c-. r4 c8-. g'16( f g8-.) r8 c,-.
+  r8 g8-. g'16( f g8-.) g,8( bes-.) d( es-.)
+
+  c-. r4 c8-. g'16( f g8-.) r8 c,-.
+  r8 g8-. g'16( f g8-.) r8 <des, des'>-.-> <c c'>-.-> r8
+  <c c'>1->\fermata
 }
 
 dynamics = {
@@ -183,6 +317,19 @@ dynamics = {
   s32 s32*30\mp s32
   s1*11
   s32 s32*30\pp s32
+  s1
+  s32 s32*30\p s32
+  s1*6
+  s32 s32*29\< s32\! s32
+  s32 s32*30\mf s32
+  s1*3
+  s32 s32*61\< s32\! s32
+  s32 s32*30\ff s32
+  s32 s32*29\> s32\! s32
+  s32 s32*30\p s32
+  s32 s32*30-\markup { \dynamic "p" "cresc. poco a poco"} s32
+  s1*19
+  s32*2 s32*29\fff s32
 }
 
 pedal = {
