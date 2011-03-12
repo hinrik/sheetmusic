@@ -199,18 +199,20 @@ lower = \relative c' {
   cis a
 
   R1*3
+  \clef treble
   <<
     { <fis' b>8 e e d d2 }
   \\
     { <b d>4. r2 r8 }
   >>
 
+  \clef bass
   <d, g b>1
-  d'8 g b <b, d g>2~ <b d g>8
-  r1
   \clef treble
+  d'8 g b <b, d g>2~ <b d g>8
+  R1
 
-  <d fis>
+  <d fis>1
   <cis fis a cis>
   <e g b e>
   <e a cis e>
