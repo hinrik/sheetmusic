@@ -176,5 +176,14 @@ pedal = {
       \new Staff = "Staff_pfLower" << \global \lower \dynamics \pedal >>
     >>
   }
-  \midi { }
+  \midi {
+    % the following is a workaround to prevent multiple voices from being
+    % lumped into the same channel, which would inhibit overlapping notes
+    \context {
+      \Staff \remove "Staff_performer"
+    }
+    \context {
+      \Voice \consists "Staff_performer"
+    }
+  }
 }
