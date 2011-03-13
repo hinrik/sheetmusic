@@ -4,7 +4,6 @@
   title = "Main theme"
   subtitle = \markup { "from" \italic "Lost" }
   composer = "Michael Giacchino"
-  instrument = "Piano solo"
 }
 
 global = {
@@ -169,6 +168,7 @@ pedal = {
 
 \score {
   \new PianoStaff = "PianoStaff_pf" <<
+    \set PianoStaff.instrumentName = #"Piano"
     \new Staff = "Staff_pfUpper" << \global \upper >>
     \new Dynamics = "Dynamics_pf" \dynamics
     \new Staff = "Staff_pfLower" << \global \lower >>

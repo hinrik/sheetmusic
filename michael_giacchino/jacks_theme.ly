@@ -4,7 +4,6 @@
   title = "Jack's theme"
   subtitle = \markup { "from" \italic "Lost 3x13: \"The Man From Tallahassee\"" }
   composer = "Michael Giacchino"
-  instrument = "Piano solo"
   arranger = "Originally transcribed by Joe Cardello"
 }
 
@@ -77,6 +76,7 @@ pedal = {
 
 \score {
   \new PianoStaff = "PianoStaff_pf" <<
+    \set PianoStaff.instrumentName = #"Piano"
     \new Staff = "Staff_pfUpper" << \global \upper >>
     \new Dynamics = "Dynamics_pf" \dynamics
     \new Staff = "Staff_pfLower" << \global \lower >>

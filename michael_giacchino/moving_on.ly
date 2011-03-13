@@ -4,7 +4,6 @@
   title = "Moving On"
   subtitle = \markup { "from" \italic "Lost" }
   composer = "Michael Giacchino"
-  instrument = "Piano solo"
   arranger = "Original transcription by Pierre Nguyen"
 }
 
@@ -301,6 +300,7 @@ pedal = {
 
 \score {
   \new PianoStaff = "PianoStaff_pf" <<
+    \set PianoStaff.instrumentName = #"Piano"
     \new Staff = "Staff_pfUpper" << \global \upper >>
     \new Dynamics = "Dynamics_pf" \dynamics
     \new Staff = "Staff_pfLower" << \global \lower >>

@@ -4,7 +4,6 @@
   title = "Blood theme"
   subtitle = \markup { "from" \italic "Dexter" }
   composer = "Daniel Licht"
-  instrument = "Piano solo"
   arranger = "Original transcription by Olga Blue"
 }
 
@@ -213,6 +212,7 @@ pedal = {
 
 \score {
   \new PianoStaff = "PianoStaff_pf" <<
+    \set PianoStaff.instrumentName = #"Piano"
     \new Staff = "Staff_pfUpper" << \global \upper >>
     \new Dynamics = "Dynamics_pf" \dynamics
     \new Staff = "Staff_pfLower" << \global \lower >>
