@@ -59,7 +59,7 @@ upper = \relative c' {
   \break
 
   <<
-    { g,,4 g2. }
+    { g,,2 g }
   \\
     { <d b'>1 }
   >>
