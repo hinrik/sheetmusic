@@ -2,7 +2,7 @@
 
 \header {
   title = "Ocean's Apart"
-  subtitle = \markup { "from" \italic "Lost: Season 3" }
+  subtitle = \markup { "from" \italic "Lost" }
   composer = "Michael Giacchino"
   instrument = "Piano solo"
 }
