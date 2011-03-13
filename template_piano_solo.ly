@@ -4,7 +4,7 @@
   title = "Foo"
   subtitle = "Bar"
   composer = "Baz"
-  instrument = "Quux"
+  instrument = "Piano solo"
 }
 
 global = {
