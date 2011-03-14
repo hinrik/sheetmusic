@@ -83,7 +83,7 @@ upper = \relative c' {
   <<
     {
       fis,4 d2.
-      fis4 cis2 r4
+      fis4 cis2.
       g'4 e2.
       g4 a2.
       \break
@@ -91,17 +91,17 @@ upper = \relative c' {
       d4 a2.
       cis4 a2.
       d4 e2.
-      d4 d cis2
+      d4 cis2.
       \break
 
       d,2 e4 d
-      fis8 g g4 cis,4 r4
+      fis8 g g4 cis,2
       fis8 g g4 e2
       fis8 g g4 a2
       \break
 
       d,2 e4 d
-      cis'8 b a4 cis,4 r4
+      cis'8 b a4 cis,2
       d'2 e4 d
       b2 d4 e
       \break
@@ -204,7 +204,7 @@ lower = \relative c' {
   <<
     { <fis' b>8 e e d d2 }
   \\
-    { <b d>4. r2 r8 }
+    { <b d>1 }
   >>
 
   \clef bass
