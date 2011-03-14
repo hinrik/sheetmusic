@@ -11,6 +11,8 @@ global = {
   \key c \major
   \time 4/4
   \numericTimeSignature
+  \override PianoStaff.Arpeggio #'arpeggio-direction = #UP
+  \set PianoStaff.connectArpeggios = ##t
 }
 
 upper = \relative c' {
@@ -127,7 +129,6 @@ upper = \relative c' {
   <g g'>( <f f'>4 <g g'>~
   <g g'> <f f'> <g g'> <f f'>
 
-  \arpeggioArrowUp
   <e g c e>1\arpeggio
   <d g b d>\arpeggio)
   \tempo 4 = 80
@@ -300,15 +301,12 @@ lower = \relative c' {
   <g c e g>
   \break
 
-  \arpeggioArrowUp
   <g b e g>~
   <g b e g>
   % this was originally <f c' f a>, see comment above
   <f a c f>~\arpeggio
   <f a c f>
   \break
-
-  \set PianoStaff.connectArpeggios = ##t
 
   <c' e g c>~\arpeggio
   <c e g c>
