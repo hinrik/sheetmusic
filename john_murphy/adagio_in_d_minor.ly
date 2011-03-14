@@ -11,6 +11,8 @@ global = {
   \key c \major
   \time 4/4
   \numericTimeSignature
+  s1*60
+  \bar "|."
 }
 
 upper = \relative c' {
@@ -107,7 +109,6 @@ upper = \relative c' {
   \override TextSpanner #'(bound-details left text) = "rit."
   <b g'>^\startTextSpan e <b g'> e <b g'> e <b g'> e
   <b g'> e <b g'> e <b g'> e <b g'> e\stopTextSpan
-  \bar "|."
 }
 
 lower = \relative c, {

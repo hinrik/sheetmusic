@@ -11,6 +11,14 @@ global = {
   \key d \major
   \time 4/4
   \numericTimeSignature
+  s1*10
+  \bar "||"
+  s1*8
+  \bar "||"
+  s1*8
+  \bar "||"
+  s1*12
+  \bar "|."
 }
 
 upper = \relative c' {
@@ -27,7 +35,6 @@ upper = \relative c' {
   cis'8( b a4 cis,2)
   d'2( e4 d)
   b2( d4 cis)
-  \bar "||"
   \break
 
   d8( e e fis fis a a4)
@@ -40,7 +47,6 @@ upper = \relative c' {
   cis8( fis fis a a b cis4)
   d8( cis cis b b a g4)
   g8( b b cis cis d e4)
-  \bar "||"
   \break
 
   fis,,4( d2.)
@@ -53,7 +59,6 @@ upper = \relative c' {
   cis4( a2.)
   d4( e2.)
   d4( cis2.)
-  \bar "||"
   \break
 
   d,8( e e fis fis a a4)
@@ -72,7 +77,6 @@ upper = \relative c' {
   d'8 cis cis b~ b2
   d,8 cis cis b~ b2
   R1
-  \bar "|."
 }
 
 triads = {

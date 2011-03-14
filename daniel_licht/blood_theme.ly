@@ -12,6 +12,8 @@ global = {
   \key c \major
   \time 4/4
   \numericTimeSignature
+  s1*41
+  \bar "|."
 }
 
 upper = \relative c' {
@@ -98,7 +100,6 @@ upper = \relative c' {
   #(set-octavation 1)
   <g' g'>\arpeggio\fermata
   #(set-octavation 0)
-  \bar "|."
 }
 
 lower = \relative c {

@@ -11,6 +11,8 @@ global = {
   \key ges \major
   \time 4/4
   \numericTimeSignature
+  s1*21
+  \bar "|."
 }
 
 upper = \relative c' {
@@ -65,9 +67,6 @@ upper = \relative c' {
       <c, es>
     }
   >>
-
-  s1
-  \bar "|."
 }
 
 lower = \relative c {
@@ -109,7 +108,6 @@ lower = \relative c {
   <f' des as des,>1\arpeggio\fermata
   R1*4
   <bes ges es bes bes,>1\arpeggio
-  \bar "|."
 }
 
 dynamics = {

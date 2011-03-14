@@ -11,6 +11,8 @@ global = {
   \key des \major
   \time 4/4
   \numericTimeSignature
+  s1*64
+  \bar "|."
 }
 
 upper = \relative c' {
@@ -159,7 +161,6 @@ upper = \relative c' {
   <des' ges c>2 <bes des ges bes>
   c des
   <des,,, f as des>1\fermata
-  \bar "|."
 }
 
 lower = \relative c' {

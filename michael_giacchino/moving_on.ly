@@ -12,6 +12,8 @@ global = {
   \key d \major
   \time 4/4
   \numericTimeSignature
+  s1*27
+  \bar "||"
 }
 
 upper = \relative c' {

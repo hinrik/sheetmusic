@@ -13,6 +13,9 @@ global = {
   \numericTimeSignature
   s1*32
   \tempo 4 = 80
+  s1*30
+  \bar "||"
+  \key c \minor
 }
 
 upper = \relative c'' {
@@ -122,8 +125,6 @@ upper = \relative c'' {
   <c, c'>8( <g' g'>4 <c, c'>8 <es es'>4 <g g'>)
   <c, c'>8( <g' g'>4 <c, c'>8 <es es'>4 <g g'>)
   R1
-  \bar "||"
-  \key c \minor
   \break
 
   R1-"poco accel. to end"

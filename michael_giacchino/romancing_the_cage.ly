@@ -11,6 +11,8 @@ global = {
   \key c \major
   \time 4/4
   \numericTimeSignature
+  s1*27
+  \bar "|."
 }
 
 upper = \relative c''' {
@@ -58,7 +60,6 @@ upper = \relative c''' {
   <g' c e>2. <g c ges'>4
   <g a d>2 <d fis a>
   <d' fis g a d>1\fermata
-  \bar "|."
 }
 
 lower = \relative c' {

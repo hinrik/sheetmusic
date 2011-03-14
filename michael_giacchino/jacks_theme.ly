@@ -12,6 +12,8 @@ global = {
   \key c \major
   \time 4/4
   \numericTimeSignature
+  s1*15
+  \bar "|."
 }
 
 upper = \relative c' {
@@ -37,7 +39,6 @@ upper = \relative c' {
   <a c f>2 <a c a'>8 b' a4
   <c, f a>2 <f d>
   c1\!
-  \bar "|."
 }
 
 lower = \relative c {

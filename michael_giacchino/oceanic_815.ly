@@ -13,6 +13,14 @@ global = {
   \numericTimeSignature
   \override PianoStaff.Arpeggio #'arpeggio-direction = #UP
   \set PianoStaff.connectArpeggios = ##t
+  s1*20
+  \tempo 4 = 110
+  s1*34
+  \tempo 4 = 100
+  s1*32
+  \tempo 4 = 80
+  s1*23
+  \bar "|."
 }
 
 upper = \relative c' {
@@ -57,7 +65,6 @@ upper = \relative c' {
   <c ges'>
   <c ges'>
   <c e g>1\fermata
-  \tempo 4 = 110
   R1*3
 
   e,1
@@ -90,7 +97,6 @@ upper = \relative c' {
 
   d,4( d g b
   d1)
-  \tempo 4 = 100
   g,2( e4 g~
   g e g e
 
@@ -131,7 +137,6 @@ upper = \relative c' {
 
   <e g c e>1\arpeggio
   <d g b d>\arpeggio)
-  \tempo 4 = 80
   g2.( e4
   g2 b
   g1)
@@ -354,7 +359,6 @@ lower = \relative c' {
   <c' c'>2 <c c'>
   <fis, fis'> <fis fis'>
   <c' fis c'>1\fermata
-  \bar "|."
 }
 
 dynamics = {

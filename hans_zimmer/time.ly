@@ -11,6 +11,22 @@ global = {
   \key a \dorian
   \time 4/4
   \numericTimeSignature
+  s1*8
+  \bar "||"
+  s1*8
+  \bar "||"
+  s1*8
+  \bar "||"
+  s1*8
+  \bar "||"
+  s1*8
+  \bar "||"
+  s1*8
+  \bar "||"
+  s1*8
+  \bar "||"
+  s1*16
+  \bar "|."
 }
 
 upper = \relative c {
@@ -23,7 +39,6 @@ upper = \relative c {
   b'
   b,
   fis'
-  \bar "||"
   \break
 
   c
@@ -34,7 +49,6 @@ upper = \relative c {
   <c b'>
   b
   <a fis'>
-  \bar "||"
   \break
 
   <<
@@ -49,7 +63,6 @@ upper = \relative c {
       <e g b>2( <fis a>4 <e g>)
       d1
       <d fis>2( e4 d)
-      \bar "||"
       c'1
       \clef treble
       <g g'>
@@ -63,7 +76,6 @@ upper = \relative c {
       \break
 
       <fis fis'>
-      \bar "||"
     }
   \\
     {
@@ -96,7 +108,6 @@ upper = \relative c {
   <b' g' b>
   <b, b'>
   <fis' fis'>
-  \bar "||"
   \break
 
   <c c'>
@@ -109,7 +120,6 @@ upper = \relative c {
   <b' b'>
   <b, b'>
   <fis' fis'>
-  \bar "||"
   \break
 
   <c c'>2( <b b'>4 e
@@ -126,7 +136,6 @@ upper = \relative c {
 
   <b b'>2( <a a'>4 d
   <fis fis'>2) <e e'>4( <a, a'>)
-  \bar "||"
   \break
 
   c'2 c'
@@ -147,7 +156,6 @@ upper = \relative c {
   b'
   b,
   fis'\fermata
-  \bar "|."
 }
 
 lower = \relative c {

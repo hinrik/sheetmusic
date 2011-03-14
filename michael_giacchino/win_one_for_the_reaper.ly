@@ -11,6 +11,8 @@ global = {
   \key bes \major
   \time 4/4
   \numericTimeSignature
+  s1*25
+  \bar "|."
 }
 
 upper = \relative c' {
@@ -50,7 +52,6 @@ upper = \relative c' {
   g4( es8 f~ f es f es
   d2 a')
   bes1\fermata
-  \bar "|."
 }
 
 sadchords = {
