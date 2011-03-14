@@ -49,8 +49,7 @@ upper = \relative c' {
   f4 es8 d~ d es f4)
   g4( es8 f~ f es f es
   d2 a')
-  bes1~
-  bes
+  bes1\fermata
   \bar "|."
 }
 
@@ -75,8 +74,7 @@ lower = \relative c {
     #(set-octavation 1)
     \sadchords
     #(set-octavation 0)
-    bes,,1~
-    bes1
+    bes,,1\fermata
   }
 }
 
