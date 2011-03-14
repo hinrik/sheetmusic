@@ -310,44 +310,33 @@ dynamics = {
   s1
   s32\f s32 s32*28\> s32 s32\p
   s1*2
-  s32 s32*30\mf s32
-  s1
-  s32 s32*29\< s32\! s32
-  s32*26\f s32*4\> s32\! s32
-  s32 s32*30\mf s32
-  s1
-  s32 s32*30\f s32
+  s1*2\mf
+  s32*31\< s32\!
+  s32*26\f s32*5\> s32\!
+  s1*2\mf
+  s1\f
   s4*3 s32*6\> s32\! s32
-  s32 s32*30\mf s32
-  s1
-  s32 s32*61\< s32\! s32
-  s32 s32*30\f s32
-  s1
-  s32 s32*61\> s32\! s32
-  s32 s32*30\mp s32
-  s1
-  s32 s32*61\< s32\! s32
-  s32 s32*30\f s32
-  s1
-  s32 s32*61\> s32\! s32
-  s32 s32*30\mf s32
-  s1*3
-  s32 s32*61\> s32\! s32
-  s32 s32*30-\markup { \dynamic "p" "rit." } s32
-  s1*11
-  s32 s32*30\mp s32
-  s1*2
-  s32 s32*29\< s32\! s32
-  s32 s32*30\mf s32
-  s1*2
-  s32 s32*61\< s32\! s32
+  s1*2\mf
+  s32*63\< s32\!
+  s1*2\f
+  s32*63\> s32\!
+  s1*2\mp
+  s32*63\< s32\!
+  s1*2\f
+  s32*63\> s32\!
+  s1*4\mf
+  s32*63\> s32\!
+  s1*12-\markup { \dynamic "p" "rit." }
+  s1*3\mp
+  s32*31\< s32\!
+  s1*3\mf
+  s32*63\< s32\!
   s32 s32*30\f s32
   s1*3
-  s32 s32*93\< s32\! s32
-  s32\ff s32*2 s32*27\> s32\! s32
-  s32 s32*30\pp s32
-  s1*8
-  s32 s32*30\ppp s32
+  s32*95\< s32\!
+  s32\ff s32*2 s32*28\> s32\!
+  s1*9\pp
+  s1\ppp
 }
 
 pedal = {
@@ -383,6 +372,11 @@ pedal = {
 
       \override TextScript #'font-shape = #'italic
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
+      \override DynamicText #'extra-spacing-width = #'(0 . 0)
+
+      % XXX: this seems to have no effect, so hairpins are still not
+      % padded enough
+      \override Hairpin #'bound-padding = #2.0
     }
     % modify PianoStaff context to accept Dynamics context
     \context {

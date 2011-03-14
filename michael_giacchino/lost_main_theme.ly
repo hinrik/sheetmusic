@@ -142,25 +142,21 @@ lower = \relative c {
 
 dynamics = {
   s1*8
-  s32 s32*30\mp s32
-  s1*2
-  s2 s32 s32*13\> s32\! s32
-  s32 s32*61\< s32\! s32
-  s32 s32*7\mf s32 s32*54\> s32\! s32
-  s32 s32*30\mp s32
-  s32 s32*93\< s32\! s32
-  s32 s32*30\f s32
-  s1*2
-  s32 s32*29\> s32\! s32
-  s32 s32*30\mp s32
-  s1*3
-  s2. s32*6\< s32\!
-  s32 s32*19\mf s32*11\> s32\! s32
-  s32 s32*30\mp s32
-  s32 s32*9\> s32\! s32*5 s32\p s32*15
-  s32 s32*30\mf s32
-  s1
-  s32 s32*74\> s32\! s32*3 s32\pp
+  s1*3\mp
+  s2 s32*15\> s32\!
+  s32*63\< s32\!
+  s4\mf s32*55\> s32\!
+  s1\mp
+  s32*95\< s32\!
+  s1*3\f
+  s32*31\> s32\!
+  s1*4\mp
+  s2. s32*7\< s32\!
+  s32*20\mf s32*11\> s32\! s32
+  s1\mp
+  s32*10\> s32\! s32*5 s2\p
+  s1*2\mf
+  s32*77\> s32\! s32*2 s2\pp
 }
 
 pedal = {
@@ -196,6 +192,11 @@ pedal = {
 
       \override TextScript #'font-shape = #'italic
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
+      \override DynamicText #'extra-spacing-width = #'(0 . 0)
+
+      % XXX: this seems to have no effect, so hairpins are still not
+      % padded enough
+      \override Hairpin #'bound-padding = #2.0
     }
     % modify PianoStaff context to accept Dynamics context
     \context {

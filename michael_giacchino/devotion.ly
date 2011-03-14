@@ -261,27 +261,22 @@ dynamics = {
   s4\< s4*6 s4\!
   s4\mf\>s8*5 s8\!
   s4\mp\>s8*13 s8\!
-  s4\p s4*3
-  s1
-  s32 s32*29\< s32\! s32
-  s32 s32*30-\markup { \dynamic "mp" "espressivo" } s32
-  s1
-  s32 s32*29\< s32\! s32
-  s32 s32*15\mf s32 s32*13\> s32\! s32
-  s32 s32*30\mp s32
-  s1
-  s32 s32*61\> s32\! s32
-  s32 s32*30\p s32
-  s1*3
-  s32 s32*61\< s32\! s32
-  s4 s4\mf s32*30\> s32\! s32 s2\p
+  s1*2\p
+  s32*31\< s32\!
+  s1*2-\markup { \dynamic "mp" "espressivo" }
+  s32*31\< s32\!
+  s32*17\mf s32*14\> s32\!
+  s1*2\mp
+  s32*63\> s32\!
+  s1*4\p
+  s32*63\< s32\!
+  s4 s4\mf s32*31\> s32\! s2\p
   s1*2
-  s32 s32*29\< s32\! s32
+  s32*31\< s32\!
   s4\mf s32*22\> s32\! s32
-  s32 s32*30\mp s32
-  s1*7
-  s32 s32*61\> s32\! s32
-  s32 s32*30\pp s32
+  s1*8\mp
+  s32*63\> s32\!
+  s1\pp
 }
 
 pedal = {
@@ -317,6 +312,11 @@ pedal = {
 
       \override TextScript #'font-shape = #'italic
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
+      \override DynamicText #'extra-spacing-width = #'(0 . 0)
+
+      % XXX: this seems to have no effect, so hairpins are still not
+      % padded enough
+      \override Hairpin #'bound-padding = #2.0
     }
     % modify PianoStaff context to accept Dynamics context
     \context {

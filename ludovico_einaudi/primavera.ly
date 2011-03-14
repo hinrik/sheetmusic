@@ -118,11 +118,9 @@ lower = \relative c' {
 }
 
 dynamics = {
-  s32 s32-\markup { \dynamic "p" \italic "legato" } s32*22
-  s2.*8
-  s32 s32-\markup { \italic "dolce e cantabile" } s32*22
-  s2.*7
-  s32 s32\mp s32*22
+  s2.*9-\markup { \dynamic "p" \italic "legato" }
+  s2.*8-\markup { \italic "dolce e cantabile" }
+  s2.\mp
 }
 
 pedal = {
@@ -158,6 +156,11 @@ pedal = {
 
       \override TextScript #'font-shape = #'italic
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
+      \override DynamicText #'extra-spacing-width = #'(0 . 0)
+
+      % XXX: this seems to have no effect, so hairpins are still not
+      % padded enough
+      \override Hairpin #'bound-padding = #2.0
     }
     % modify PianoStaff context to accept Dynamics context
     \context {

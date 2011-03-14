@@ -122,7 +122,7 @@ dynamics = {
   s1*4
   s8\> s8 s4 s2\!
   s1*3
-  s8\p
+  s1\p
 }
 
 pedal = {
@@ -158,6 +158,11 @@ pedal = {
 
       \override TextScript #'font-shape = #'italic
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
+      \override DynamicText #'extra-spacing-width = #'(0 . 0)
+
+      % XXX: this seems to have no effect, so hairpins are still not
+      % padded enough
+      \override Hairpin #'bound-padding = #2.0
     }
     % modify PianoStaff context to accept Dynamics context
     \context {

@@ -129,14 +129,14 @@ upper = \relative c {
   \bar "||"
   \break
 
-  c'2\mp c'\pp
-  g\mp g'\pp
-  b,,\mp b'\pp
-  fis\mp fis'\pp
-  c,\mp c'\pp
-  b\mp b'\pp
-  b,,\mp b'\pp
-  fis\mp fis'\pp
+  c'2 c'
+  g g'
+  b,, b'
+  fis fis'
+  c, c'
+  b b'
+  b,, b'
+  fis fis'
   \break
 
   c,1
@@ -294,33 +294,67 @@ lower = \relative c {
 }
 
 dynamics = {
-  s32 s32*30\pp s32
-  s1*15
-  s32 s32*30\p s32
-  s1*7
-  s32 s32*7\mp s32*22\< s32\! s32
-  s32 s32*29\> s32\! s32
-  s32 s32*29\< s32\! s32
-  s32 s32*29\> s32\! s32
-  s32 s32*29\< s32\! s32
-  s32 s32*29\> s32\! s32
-  s32 s32*29\< s32\! s32
-  s32 s32*29\> s32\! s32
-  s32 s32*29\< s32\! s32
-  s32 s32*29\> s32\! s32
-  s32 s32*29\< s32\! s32
-  s32 s32*29\> s32\! s32
-  s32 s32*29\< s32\! s32
-  s32 s32*29\> s32\! s32
-  s32 s32*29\< s32\! s32
-  s32 s32*30\mf s32
-  s1*14
+  s1*16\pp
+  s1*8\p
+  s4\mp s16\< s32*21 s32\!
+  s32*31\> s32\!
+  s32*31\< s32\!
+  s32*31\> s32\!
+  s32*31\< s32\!
+  s32*31\> s32\!
+  s32*31\< s32\!
+  s32*31\> s32\!
+  s32*31\< s32\!
+  s32*31\> s32\!
+  s32*31\< s32\!
+  s32*31\> s32\!
+  s32*31\< s32\!
+  s32*31\> s32\!
+  s32*63\< s32\!
+  s1*8\mf
   s32*31\f\< s32\!
   s32*31\> s32\!
-  s1*8
+  s32*31\< s32\!
+  s32*31\> s32\!
+  s32*31\< s32\!
+  s32*31\> s32\!
+  s32*31\< s32\!
+  s32*31\> s32\!
+  s2\mp
+  \override DynamicText #'Y-offset = #1
+  s2\pp
+  \override DynamicText #'Y-offset = #ly:self-alignment-interface::y-aligned-on-self
+  s2\mp
+  \override DynamicText #'Y-offset = #1
+  s2\pp
+  \override DynamicText #'Y-offset = #ly:self-alignment-interface::y-aligned-on-self
+  s2\mp
+  \override DynamicText #'Y-offset = #1
+  s2\pp
+  \override DynamicText #'Y-offset = #ly:self-alignment-interface::y-aligned-on-self
+  s2\mp
+  \override DynamicText #'Y-offset = #1
+  s2\pp
+  \override DynamicText #'Y-offset = #ly:self-alignment-interface::y-aligned-on-self
+  s2\mp
+  \override DynamicText #'Y-offset = #1
+  s2\pp
+  \override DynamicText #'Y-offset = #ly:self-alignment-interface::y-aligned-on-self
+  s2\mp
+  \override DynamicText #'Y-offset = #1
+  s2\pp
+  \override DynamicText #'Y-offset = #ly:self-alignment-interface::y-aligned-on-self
+  s2\mp
+  \override DynamicText #'Y-offset = #1
+  s2\pp
+  \override DynamicText #'Y-offset = #ly:self-alignment-interface::y-aligned-on-self
+  s2\mp
+  \override DynamicText #'Y-offset = #1
+  s2\pp
+  \override DynamicText #'Y-offset = #ly:self-alignment-interface::y-aligned-on-self
   s1*2\p
-  s32*62\> s32\! s32
-  s32 s32 s32*29\pp s32
+  s32*63\> s32\!
+  s1\pp
 }
 
 pedal = {
@@ -356,6 +390,11 @@ pedal = {
 
       \override TextScript #'font-shape = #'italic
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
+      \override DynamicText #'extra-spacing-width = #'(0 . 0)
+
+      % XXX: this seems to have no effect, so hairpins are still not
+      % padded enough
+      \override Hairpin #'bound-padding = #2.0
     }
     % modify PianoStaff context to accept Dynamics context
     \context {

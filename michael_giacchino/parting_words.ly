@@ -284,36 +284,28 @@ lower = \relative c' {
 }
 
 dynamics = {
-  s32 s32*30\p s32
-  s1*15
-  s32 s32*30\mf s32
-  s1*7
-  s32 s32*30\p s32
-  s1*3
-  s32 s32*30\mf s32
-  s1
-  s32 s32*30-"rit." s32
-  s32 s32*29\> s32\! s32
-  s32 s32*30-\markup { \dynamic "p" "a tempo" } s32
-  s1*3
-  s32 s32*30-"cresc. poco a poco" s32
-  s1*2
+  s1*16\p
+  s1*8\mf
+  s1*4\p
+  s1*2\mf
+  s1-"rit."
+  s32*31\> s32\!
+  s1*4-\markup { \dynamic "p" "a tempo" }
+  s1*3-"cresc. poco a poco"
   s4 s2.\f
-  s32 s32*30\p s32
-  s1
-  s32 s32*30\mf s32
-  s1*3
-  s32 s32*7\p s32*13\< s32*3\! s32*8\mf
-  s32 s32*30-"sim." s32
-  s32 s32*30-"sim." s32
-  s32 s32*30-"sim." s32
-  s32 s32*30-\markup { \dynamic "p" "cresc." } s32
-  s1*7
-  s32 s32*30\ff s32
-  s1*2
-  s32 s32*30\ff s32
-  s32 s32*30-"rit." s32
-  s32 s32*30\p s32
+  s1*2\p
+  s1*4\mf
+  s32*4\p s32*17\< s32\! s32*2 s32*8\mf
+  s1-"sim."
+  s1-"sim."
+  s1-"sim."
+  \set crescendoText = \markup { \italic "cresc." }
+  \set crescendoSpanner = #'text
+  s1*8\p\<
+  s1*3\ff
+  s1\ff
+  s1-"rit."
+  s1\p
 }
 
 pedal = {
@@ -349,6 +341,11 @@ pedal = {
 
       \override TextScript #'font-shape = #'italic
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
+      \override DynamicText #'extra-spacing-width = #'(0 . 0)
+
+      % XXX: this seems to have no effect, so hairpins are still not
+      % padded enough
+      \override Hairpin #'bound-padding = #2.0
     }
     % modify PianoStaff context to accept Dynamics context
     \context {

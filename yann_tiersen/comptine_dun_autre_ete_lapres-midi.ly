@@ -126,42 +126,42 @@ lower = \relative c' {
 
 dynamics = {
   s1\p
-  s32 s32*29\< s32\! s32
+  s32*31\< s32\!
   s1
-  s32 s32*29\> s32\! s32
+  s32*31\> s32\!
 
   \repeat volta 2 {
     s8 s8\mf s2.
-    s16 s16\< s16*2 s16\!\> s16*4 s16\! s16*6
-    s16 s16\< s16*2 s16\!\> s16*4 s16\! s16*6
-    s16\> s16*14 s16\!
+    s8\< s8 s8*2\!\> s8\! s8*3
+    s8\< s8 s8*2\!\> s8\! s8*3
+    s32*31\> s32\!
   }
 
   s1\p
-  s16\< s16*14 s16\!
+  s32*31\< s32\!
   s1
-  s16\> s16*14 s16\!
+  s32*31\> s32\!
 
   s1\mf
-  s16\< s16*14 s16\!
+  s32*31\< s32\!
   s1
-  s16\> s16*14 s16\!
+  s32*31\> s32\!
 
   \repeat volta 2 {
     s1\mf
-    s16\< s16*14 s16\!
+    s32*31\< s32\!
     s1
   }
   \alternative {
-    { s16\> s16*14 s16\! }
-    { s16\> s16*6 s16\! s16 s16-"Ralentir..." s16*6 }
+    { s32*31\> s32\! }
+    { s32*15\> s32\! s16 s16-"Ralentir..." s16*6 }
   }
 
   \repeat volta 2 {
     s16*3 s16\p s16*12
-    s16\< s16*14 s16\!
+    s32*31\< s32\!
     s1
-    s16\> s16*14 s16\!
+    s32*31\> s32\!
   }
 }
 
@@ -198,6 +198,11 @@ pedal = {
 
       \override TextScript #'font-shape = #'italic
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
+      \override DynamicText #'extra-spacing-width = #'(0 . 0)
+
+      % XXX: this seems to have no effect, so hairpins are still not
+      % padded enough in some cases
+      \override Hairpin #'bound-padding = #2.0
     }
     % modify PianoStaff context to accept Dynamics context
     \context {
