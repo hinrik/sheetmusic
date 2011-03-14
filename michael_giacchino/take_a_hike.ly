@@ -11,6 +11,8 @@ global = {
   \key bes \major
   \time 4/4
   \numericTimeSignature
+  s1*32
+  \tempo 4 = 80
 }
 
 upper = \relative c'' {
@@ -65,7 +67,6 @@ upper = \relative c'' {
   \break
 
   R1*2
-  \tempo 4 = 80
   c,,8( g'4 c,8 es4 g)
   \break
 
