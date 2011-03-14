@@ -375,7 +375,10 @@ dynamics = {
   s1*5
   s32 s32*30-"rit." s32
   s1
-  s32 s32\pp s32_"poco accel. to end" s32^"cresc poco a poco." s32*28
+  s32-\markup { \dynamic "pp" "cresc poco a poco." }
+  \override TextScript #'Y-offset = #1
+  s32-"poco accel. to end" s32*30
+  \override TextScript #'Y-offset = #-0.5
   s1*8
   s32 s32*30\fff s32
 }
@@ -407,7 +410,10 @@ pedal = {
       \consists "Skip_event_swallow_translator"
       \consists "Axis_group_engraver"
 
+      % keep spanners and text in the middle
       \override DynamicLineSpanner #'Y-offset = #0
+      \override TextScript #'Y-offset = #-0.5
+
       \override TextScript #'font-shape = #'italic
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
     }

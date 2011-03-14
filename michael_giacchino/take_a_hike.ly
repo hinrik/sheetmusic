@@ -358,7 +358,10 @@ pedal = {
       \consists "Skip_event_swallow_translator"
       \consists "Axis_group_engraver"
 
+      % keep spanners and text in the middle
       \override DynamicLineSpanner #'Y-offset = #0
+      \override TextScript #'Y-offset = #-0.5
+
       \override TextScript #'font-shape = #'italic
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1 . 1)
     }
