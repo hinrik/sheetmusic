@@ -141,7 +141,7 @@ upper = \relative c' {
   \break
 
   <des des'>8 <c c'> <bes bes'>2~ <bes bes'>8) <es es'>(
-  <es es'>4 <des des'>2) <as' as'>4(
+  <f f'>4 <des des'>2) <as' as'>4(
   <ges ges'>8 <f f'> <des des'>2.)
   \break
 
@@ -157,7 +157,7 @@ upper = \relative c' {
 
   <as' des f as>4( <des, f as des>2~ <des f as des>8) <des f as des>
   <des' ges c>2 <bes des ges bes>
-  c bes
+  c des
   <des,,, f as des>1\fermata
   \bar "|."
 }
