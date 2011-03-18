@@ -14,6 +14,8 @@ global = {
   \numericTimeSignature
   s1*27
   \bar "||"
+  s1*24
+  \bar "||"
 }
 
 upper = \relative c' {
