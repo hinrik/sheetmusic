@@ -16,6 +16,12 @@ global = {
   \bar "||"
   s1*24
   \bar "||"
+  s1*32
+  \bar "||"
+  s1*5
+  \bar "||"
+  s1*19
+  \bar "|."
 }
 
 upper = \relative c' {
@@ -166,6 +172,97 @@ upper = \relative c' {
   <dis dis'>8 <fis fis'> <fis fis'> <b b'> <b b'> <dis dis'> <dis dis'>4
   <e e'> <b b'>2.
   \break
+
+  <d d'>8 <c c'> <c c'> <g g'> <g g'> <c c'> <c c'>4
+  <d d'>8 <b b'> <b b'> <g g'> <g g'> <d d'> <d d'>4
+  <d' d'>8 <c c'> <c c'> <g g'> <g g'> <e e'> <e e'>4
+  \break
+
+  <<
+    {
+      <fis fis'>1
+      <fis a>
+      <e g>
+      <e fis>
+    }
+  \\
+    {
+      r4 d fis d
+      r4 d fis d
+      r4 d g d
+      r4 d fis cis'
+    }
+  >>
+  \break
+
+  <b, e g>2~ <b e g>8 a' g d
+  <e fis a>2. <cis fis cis'>4
+  <b e g b>2~ <b e g b>8 a' g d
+  e4 fis2 d4
+  \break
+
+  <d fis> g2 r4
+  <e g c>4 <e g>2.
+  <d g b>4 g2.
+  <dis fis b>4 <dis fis>2.
+  \break
+
+  <g b>4 <e g>2.
+  <c' c'>4 <g g'>2.
+  <b b'>4 <g g'>2.
+  <e g e'>2 <g cis g'>
+  <a d a'>1
+  \break
+
+  <fis d' fis>4 <d fis a d>2.
+  <g d' e g>4 <d fis a d>2.
+  <a d a'>4 <d e a d>2.
+  \break
+
+  <e' b'>1
+  <a, d>
+  <d, fis a d>
+  <cis fis a cis>
+  \break
+
+  <<
+    {
+      <a' d>8 e' e fis fis a a4
+      <fis, a cis>8 fis' fis a a b cis4
+      <a, d>8 e' e fis fis a a4
+      <fis, a cis>8 fis' fis a a b cis4
+      \break
+
+      d,8 e e fis fis a a4
+      fis8 a a b b cis cis4
+      <a, d>8 e' e fis fis g g b
+      d cis cis b b a e4
+      \break
+    }
+  \\
+    {
+      a,4 e8 a4 e8 a e
+      fis4 cis'8 a2~ a8
+      a4 e8 a4 e8 a e
+      fis4 cis'8 a2~ a8
+      <d, g a>4 g8 a4 g8 a g
+      <d fis>4 g8 fis4 g8 <fis a>4
+      a4 g8 a4 g8 a g
+      fis2 e
+    }
+  >>
+
+  <e e'>4 <g g'>8 <fis fis'> <cis cis'>4 <fis fis'>8 e'~
+  e8 r2 <e, e'>4 <g g'>8
+  <fis fis'> <b d b'>4 <cis fis a> <fis, a fis'>~ <fis a fis'>8
+
+  <g d' g>2 <b b'>4 <a a'>
+  \break
+  <fis fis'>2 <a a'>4 <g g'>
+  <fis fis'>2 <g g'>4 <e e'>
+  <d a' d>2 <cis cis'>
+  <d d'>1
+  d
 }
 
 lower = \relative c' {
@@ -287,13 +384,87 @@ lower = \relative c' {
   <b fis' b>8 dis fis b dis, fis a fis
   <<
     {
-      <e g b e>4 g d8 r4
+      <e g b e>4 g d8 b4 r8
     }
   \\
     {
-      r8 e r8 e r8 b g e
+      r8 e r e r4 g,8 e
     }
   >>
+
+  <c' e g c>8 c e c' g e c g'
+  <b, g' b> g' b g b g b4
+  <c, g'> g' <cis, g'> g'
+
+  <a, d fis a>8 fis' a fis a fis a4
+  <d, fis>8 fis a fis a fis a fis
+  <a, d g> d g d g d g d
+  <a e' a> fis' d fis d fis a fis
+
+  <g, g'>4 e' g g,
+  <fis' a> d fis a
+  g d g8 fis e d
+  <a fis' a>4 a' fis fis
+
+  <g, d' g a>2 e'8 fis g d
+  <c g' c>1
+  <b g' b>
+  <<
+    {
+      <b dis fis b>
+      <e g e'>
+    }
+  \\
+    {
+      r2 fis8 dis fis b
+      r2 e,8 fis g d
+    }
+  >>
+  <c g' c>1
+  <b g' b>
+  <c g'>2 <cis g'>
+  <d fis a d>1
+
+  <d, d'>8 <e e'> <e e'> <fis fis'> <fis fis'>2
+  <d g d'>8 <e e'> <e e'> <fis fis'> <fis fis'>2
+  <d d'>8 <e e'> <e e'> <fis fis'> <fis fis'>2
+
+  <cis' e a>1
+  <d e a d>
+  R1*2
+
+  d,8 a' fis' a d a fis d
+  fis, cis' fis a cis a fis cis
+  d, a' fis' a d a fis d
+  fis, cis' fis a cis a fis cis
+
+  <g g'> d' g a b d a g
+  a d, fis b <b d> cis cis4
+  <g, b d>8 e' <e g> fis fis <g cis> <g cis> <b d>
+  <b, fis'> cis' a e e a e4
+
+  <<
+    {
+      <fis a>4 a8 d4 r4.
+      cis4 cis8 b4 <e, a fis'> r8
+      s1
+      <b d g>1
+      <a d fis>
+      <e' g d'>
+      b
+    }
+  \\
+    {
+      d8 fis fis a a fis a fis
+      r8 fis a b4 e, fis8
+      a4 fis8 a fis a4 cis8
+      r8 d, g a b2
+      r8 d, fis g a2
+      r4 fis g e
+      <fis a>2 <cis e a>
+    }
+  >>
+  R1*2
 }
 
 dynamics = {
