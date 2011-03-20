@@ -59,9 +59,9 @@ upper = \relative c' {
   \\
     { r8 e e d d2 }
   >>
-  e''8 d a'2.
+  e''8 d a2.
   <<
-    { fis1 }
+    { fis'1 }
   \\
     { r8 e e d d2 }
   >>
@@ -216,7 +216,7 @@ upper = \relative c' {
 
   <fis d' fis>4 <d fis a d>2.
   <g d' e g>4 <d fis a d>2.
-  <a d a'>4 <d e a d>2.
+  <a' d a'>4 <d, e a d>2.
   \break
 
   <e' b'>1
@@ -233,7 +233,7 @@ upper = \relative c' {
       <fis, a cis>8 fis' fis a a b cis4
       \break
 
-      d,8 e e fis fis a a4
+      d,8 e e fis fis g g4
       fis8 a a b b cis cis4
       <a, d>8 e' e fis fis g g b
       d cis cis b b a e4
@@ -456,7 +456,7 @@ lower = \relative c' {
   \\
     {
       d8 fis fis a a fis a fis
-      r8 fis a b4 e, fis8
+      r8 fis a r cis e,4 fis8
       a4 fis8 a fis a4 cis8
       r8 d, g a b2
       r8 d, fis g a2
