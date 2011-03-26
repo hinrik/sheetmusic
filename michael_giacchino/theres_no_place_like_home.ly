@@ -7,7 +7,7 @@
 }
 
 global = {
-  \tempo 4 = 55
+  \tempo 4 = 60
   \key d \major
   \time 4/4
   \numericTimeSignature
@@ -106,7 +106,7 @@ lower = \relative c, {
   \relative c { \triads }
   \relative c { \triads }
 
-  <d fis a>
+  <d' fis a>
   <cis fis a>
   <e g b>
   <e a cis>~
@@ -117,16 +117,15 @@ lower = \relative c, {
 }
 
 dynamics = {
-  s1*10
-  s8\mf\< s8*6 s8\!
-  s1*6
-  s8\> s8*6 s8\!
-  s1*8
-  s8\mf\< s8*6 s8\!
+  s1*10\pp
+  s8\fff\< s8*14 s8\!
   s1*4
-  s8\> s8 s4 s2\!
-  s1*3
-  s1\p
+  s8\> s8*14 s8\!
+  s1*8\pp
+  s8\fff\< s8*14 s8\!
+  s1*2
+  s8\> s8*9 s4 s2\!
+  s1*6\ppp
 }
 
 pedal = {
