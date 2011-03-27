@@ -169,15 +169,17 @@ lower = \relative c {
       cis1)
       a2( b
 
-      % TODO: figure out how to merge this note with the one
-      % in the other voice
-      \hideNotes cis1) \unHideNotes
+      % XXX: this produces a harmless warning about clashing note columns
+      \voiceOne
+      cis1)
+      \voiceTwo
       a2( b
       cis1)
       a2( b
 
-      % TODO: same as above
-      \hideNotes cis1) \unHideNotes
+      % XXX: same as above
+      \voiceOne
+      cis1)
     }
   >>
   <b' dis>~
