@@ -475,7 +475,7 @@ lower = \relative c' {
 
   <<
     {
-      <fis a>4 a8 d4 r4.
+      <fis a>4 a8 d4 r4 r8
       cis4 cis8 b4 <e, a fis'> r8
       s1
       <b d g>1
