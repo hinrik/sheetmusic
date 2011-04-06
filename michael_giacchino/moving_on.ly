@@ -271,9 +271,9 @@ upper = \relative c' {
     }
   \\
     {
-      a,4 e8 a4 e8 a e
+      a,4 fis8 a4 fis8 a fis
       fis4 cis'8 a2~ a8
-      a4 e8 a4 e8 a e
+      a4 fis8 a4 fis8 a fis
       fis4 cis'8 a2~ a8
       <d, g a>4 g8 a4 g8 a g
       <d fis>4 g8 fis4 g8 <fis a>4
