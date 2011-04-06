@@ -118,18 +118,48 @@ upper = \relative c' {
     }
   \\
     {
-      r8 e, e fis fis a a4
-      r8 fis fis a a b cis4
-      r8 b b cis cis b g4
+      \change Staff = "Staff_pfLower"
+      \stemUp
+      d,8
+      \change Staff = "Staff_pfUpper"
+      \stemDown
+      e e fis fis a a4
+      \change Staff = "Staff_pfLower"
+      \stemUp
+      cis,8
+      \change Staff = "Staff_pfUpper"
+      \stemDown
+      fis fis a a b cis4
+      \change Staff = "Staff_pfLower"
+      \stemUp
+      g8
+      \change Staff = "Staff_pfUpper"
+      \stemDown
+      b b cis cis b g4
       g8 b b cis cis e e g
 
       d cis cis b b a fis4
-      r8 fis fis a a b cis4
+      \change Staff = "Staff_pfLower"
+      \stemUp
+      cis8
+      \change Staff = "Staff_pfUpper"
+      \stemDown
+      fis fis a a b cis4
       d8 cis cis b b a g4
-      g8 b b cis cis d e fis
+      \change Staff = "Staff_pfLower"
+      \stemUp
+      g8
+      \change Staff = "Staff_pfUpper"
+      \stemDown
+      b b cis cis d e fis
 
       a,8 e e fis fis a a4
-      r8 fis fis a a b cis4
+      \change Staff = "Staff_pfLower"
+      \stemUp
+      cis,8
+      \change Staff = "Staff_pfUpper"
+      \stemDown
+      fis fis a a b cis4
       g8 b b cis cis b g4
       g8 b b cis cis e e g
 
@@ -323,20 +353,20 @@ lower = \relative c' {
   <e a cis e>
   \clef bass
 
-  <d, fis a d>
-  <cis fis a cis>
+  <d, fis a>
+  <cis fis a>
   <b e g>
   a'
 
   <d, fis a>
-  <cis fis a cis>
+  <cis fis a>
   <e g b>
   <a cis e>
 
   <<
     {
       <a d>
-      <fis a cis>
+      <fis a>
       <e g>
       e
 
