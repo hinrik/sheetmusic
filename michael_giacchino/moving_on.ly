@@ -68,9 +68,9 @@ upper = \relative c' {
   \break
 
   <<
-    { g,,2 g }
+    { r4 g,,2. }
   \\
-    { <d b'>1 }
+    { <d g b>1 }
   >>
   b''8 cis b <b, b'>2~ <b b'>8
   <g d' g>2 <e g cis e>
