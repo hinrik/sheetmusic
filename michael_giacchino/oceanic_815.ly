@@ -414,8 +414,20 @@ pedal = {
       \override DynamicText #'extra-spacing-width = #'(0 . 0)
 
       % XXX: this seems to have no effect, so hairpins are still not
-      % padded enough
+      % padded enough in some cases
       \override Hairpin #'bound-padding = #2.0
+
+      % hack to fix incorrect placement of the instrument name when
+      % pedaling instructions are present
+      % http://lists.gnu.org/archive/html/lilypond-user/2010-07/msg00402.html
+      \override VerticalAxisGroup #'meta =
+      #(let* ((descr (assoc-get 'VerticalAxisGroup all-grob-descriptions))
+              (meta (assoc-get 'meta descr))
+              (ifaces (assoc-get 'interfaces meta)))
+        ;; Adding piano-pedal-interface to this VerticalAxisGroup
+        ;; prevents it being acknowledged by Instrument_name_engraver
+        (acons 'interfaces (cons 'piano-pedal-interface ifaces)
+                meta))
     }
     % modify PianoStaff context to accept Dynamics context
     \context {
