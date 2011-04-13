@@ -330,9 +330,13 @@ dynamics = {
 pedal = {
 }
 
+chordnames = \chordmode {
+}
+
 \score {
   \new PianoStaff = "PianoStaff_pf" <<
     \set PianoStaff.instrumentName = #"Piano"
+    \new ChordNames = "chordnames" \chordnames
     \new Staff = "Staff_pfUpper" << \global \upper >>
     \new Dynamics = "Dynamics_pf" \dynamics
     \new Staff = "Staff_pfLower" << \global \lower >>
@@ -381,6 +385,7 @@ pedal = {
     % modify PianoStaff context to accept Dynamics context
     \context {
       \PianoStaff
+      \accepts ChordNames
       \accepts Dynamics
     }
   }
