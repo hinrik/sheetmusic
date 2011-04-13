@@ -4,6 +4,7 @@
   title = "There's No Place Like Home"
   subtitle = \markup { "from" \italic "Lost" }
   composer = "Michael Giacchino"
+  arranger = "Arranged by Young-Ah Hauser"
 }
 
 global = {
@@ -11,121 +12,120 @@ global = {
   \key d \major
   \time 4/4
   \numericTimeSignature
-  s1*10
-  \bar "||"
-  s1*8
-  \bar "||"
-  s1*8
-  \bar "||"
-  s1*12
-  \bar "|."
+  s1*4\break
+  s1*6\break\bar "||"
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*4\break\bar "||"
+  s1*4\break
+  s1*3\bar "||"
 }
 
-upper = \relative c' {
+upper = \relative c'' {
   \clef treble
   R1*2
-  d2( e4 d)
-  \break
-  fis8( g g4 cis,2)
-  fis8( g g4 e2)
-  fis8( g g4 a2)
-  d,2( e4 d)
-  \break
+  d2 e4 d
+  fis8 g g4 cis,2
 
-  cis'8( b a4 cis,2)
-  d'2( e4 d)
-  b2( d4 cis)
-  \break
+  fis8 g g4 e2
+  fis8 g g4 a2
+  d,2 e4 d
+  cis'8 b a4 cis,2
+  d'2 e4 d
+  b2 d4 cis
 
-  d8( e e fis fis a a4)
-  cis,8( fis fis a a b cis4)
-  g8( b b cis cis b g4)
-  g8( b b cis cis e e g)
-  \break
+  <fis,,, a d>2 <a e'>4 d
+  <a cis fis>8 g' g4 cis,2
+  <b e fis>8 g' g4 <b, e>2
+  <b fis'>8 <e g> <e g>4 <e a>2
 
-  d( cis cis b b a fis4)
-  cis8( fis fis a a b cis4)
-  d8( cis cis b b a g4)
-  g8( b b cis cis d e4)
-  \break
+  <fis, a d>2 <a e'>4 <a d>
+  <cis a' cis>8 b' <cis, a'>4 cis2
+  <e g d'>2 <g b e>4 <g d'>
+  <g b>2 <g d'>4 <g cis>
 
-  fis,,4( d2.)
-  fis4( cis2.)
-  g'4( e2.)
-  g4( a2.)
-  \break
+  <<
+    {
+      d'2 e4 d
+      fis8 g g4 cis,2
+      fis8 g g4 e2
+      fis8 g g4 <a, a'>2
 
-  d4( a2.)
-  cis4( a2.)
-  d4( e2.)
-  d4( cis2.)
-  \break
+      d2 e4 d
+      cis'8 b a4 cis,2
+      <g' d'>2 <e e'>4 <d d'>
+      <b b'>2 <d d'>4 <cis cis'>
+    }
+  \\
+    {
+      <d, fis>8 e e fis <fis a> a <fis a>4
+      fis4 fis8 a a b <a cis>4
+      b8 g g b cis b g4
+      a8 b b cis cis e e g
 
-  d,8( e e fis fis a a4)
-  cis,8( fis fis a a b cis4)
-  g8( b b cis cis b g4)
-  g8( b b cis cis e e g)
-  \break
+      <d fis> cis cis b b a fis4
+      cis'8 fis fis a, a b <a cis>4
+      d8 cis cis b b a g4
+      g8 b b cis cis d e4
+    }
+  >>
 
-  d( cis cis b b a fis4)
-  cis'8( b a4 cis,2)
-  d'2( e4 d)
-  b2( d4 cis)
-  \break
+  d,8 e e fis fis a a4
+  cis,8 fis fis a a b cis4
+  g8 b b cis cis b g4
+  g8 b b cis cis e e4
 
-  d1
-  d'8 cis cis b~ b2
-  d,8 cis cis b~ b2
-  R1
+  d8 cis cis b~ b2
+  d8 cis cis b~ b2
+  <d d'>1\fermata
 }
 
-triads = {
+lower = \relative c {
+  \clef bass
+  <d fis a>1
+  <cis fis a>
+
   <d fis a>
   <cis fis a>
   <e g b>
-  <e a cis>
-}
+  <a, e' a>
 
-tetrads = {
-  <d fis a d>
-  <fis a cis fis>
-  <e g b d>
-  <a cis e g>
-}
-
-lower = \relative c, {
-  \clef bass
-  <d fis a d>1
-  <fis a cis fis>
-
-  \relative c, { \tetrads }
-  \relative c, { \tetrads }
-  \relative c { \tetrads }
-  \relative c { \tetrads }
-  \relative c { \triads }
-  \relative c { \triads }
-  \relative c { \triads }
-
-  <d' fis a>
+  <d fis a>
   <cis fis a>
   <e g b>
-  <e a cis>~
+  <e g a>
 
-  <e a cis>
+  <d, a' d>8 e' e fis <d fis> a' a4
+  <fis, cis'>8 fis' fis a <fis a> b cis4
+  <e,, b' e>8 g' g b <g cis> b <e, g>4
+  <a, e' g>8 b' b cis cis e e g
+
+  <d,, a' d> cis'' cis b b a fis4
+  <fis, cis' fis>8 fis' fis a a b cis4
+  <e, g d'>8 cis' cis b <e, g b> a <e g>4
+  <a, e' g>8 b' b cis <a cis> d e4
+
+  <d,, a' d>8 e' e fis <d fis> a' <d, fis a>4
+  <fis, cis'>8 fis' fis a <fis a> b <fis a cis>4
+  <e, b' e>8 g' g b <g cis> b <e, g>4
+  <a, e' g>8 b' b cis <a cis> e' e g
+
+  <d,, a' d> cis'' cis b <d, fis b> a' <fis a>4
+  <fis, cis'>8 fis' fis a <fis a> b <fis a cis>4
+  <e, b' e g d'>8 cis'' cis b <e, g b> a <e g>4
+  <a, e' g>8 b' <g b> cis <a cis> <b d> <cis e>4
+
+  d,2 e4 d
+  fis8 g g4 cis,2
+  fis8 g g4 e2
+  fis8 g g4 a2
+
   R1*2
-  d1
+  d,,1\fermata
 }
 
 dynamics = {
-  s1*10\pp
-  s8\fff\< s8*14 s8\!
-  s1*4
-  s8\> s8*14 s8\!
-  s1*8\pp
-  s8\fff\< s8*14 s8\!
-  s1*2
-  s8\> s8*9 s4 s2\!
-  s1*6\ppp
 }
 
 pedal = {
