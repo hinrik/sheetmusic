@@ -309,6 +309,7 @@ lower = \relative c {
   e16^"B" e e e~ e8. e16~ e8. e16 e^"F♯m" e e e
 
   e16^"B" e e e~ e8. e16~ e8. e16 e^"F♯m" e e e
+  \once \override TextScript #'script-priority = #5000
   e8-.->\fermata^"G" r8 r4 r2
   \clef treble
   \improvisationOff
