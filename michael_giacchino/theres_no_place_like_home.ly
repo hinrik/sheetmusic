@@ -126,6 +126,9 @@ lower = \relative c {
 }
 
 dynamics = {
+  s1*26\mp
+  s1*4\pp
+  s1*3\ppp
 }
 
 pedal = {
