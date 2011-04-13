@@ -54,7 +54,7 @@ upper = \relative c'' {
 
       d2 e4 d
       cis'8 b a4 cis,2
-      <g' d'>2 <e e'>4 <d d'>
+      <g' d'>2 <e g b e>4 <d g b d>
       <b b'>2 <d d'>4 <cis cis'>
     }
   \\
@@ -66,8 +66,8 @@ upper = \relative c'' {
 
       <d fis> cis cis b b a fis4
       cis'8 fis fis a, a b <a cis>4
-      d8 cis cis b b a g4
-      g8 b b cis cis d e4
+      d8 cis cis b r2
+      g'8 b, b cis cis d e4
     }
   >>
 
@@ -113,7 +113,7 @@ lower = \relative c {
 
   <d,, a' d> cis'' cis b <d, fis b> a' <fis a>4
   <fis, cis'>8 fis' fis a <fis a> b <fis a cis>4
-  <e, b' e g d'>8 cis'' cis b <e, g b> a <e g>4
+  <e, b' e>8 cis'' cis b <e, g b> a <e g b>4
   <a, e' g>8 b' <g b> cis <a cis> <b d> <cis e>4
 
   d,2 e4 d
