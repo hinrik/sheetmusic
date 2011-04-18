@@ -19,7 +19,7 @@ global = {
   s1*4\break
   s1*4\break\bar "||"
   s1*4\break
-  s1*3\bar "||"
+  s1*3\bar "|."
 }
 
 upper = \relative c'' {
