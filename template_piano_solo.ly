@@ -1,34 +1,34 @@
-\version "2.12.2"
+%\version "2.12.2"
 
-\header {
-  title = "Foo"
-  subtitle = "Bar"
-  composer = "Baz"
-}
+%\header {
+%  title = "Foo"
+%  subtitle = "Bar"
+%  composer = "Baz"
+%}
 
-global = {
-  \tempo 4 = 60
-  \key c \major
-  \time 4/4
-  \numericTimeSignature
-}
+%global = {
+%  \tempo 4 = 60
+%  \key c \major
+%  \time 4/4
+%  \numericTimeSignature
+%}
 
-upper = \relative c' {
-  \clef treble
-}
+%upper = \relative c' {
+%  \clef treble
+%}
 
-lower = \relative c {
-  \clef bass
-}
+%lower = \relative c {
+%  \clef bass
+%}
 
-dynamics = {
-}
+%dynamics = {
+%}
 
-pedal = {
-}
+%pedal = {
+%}
 
-chordnames = \chordmode {
-}
+%chordnames = \chordmode {
+%}
 
 \score {
   \new PianoStaff = "PianoStaff_pf" <<
