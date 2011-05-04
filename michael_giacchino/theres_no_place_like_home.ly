@@ -125,7 +125,7 @@ lower = \relative c {
   r8 cis' cis b~ b2
   r8 cis cis b~ b2
   #(set-octavation 0)
-  d,,1\fermata
+  d,,,1\fermata
 }
 
 dynamics = {
