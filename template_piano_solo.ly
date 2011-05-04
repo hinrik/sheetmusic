@@ -79,11 +79,14 @@
         (acons 'interfaces (cons 'piano-pedal-interface ifaces)
                 meta))
     }
-    % modify PianoStaff context to accept ChordNames and Dynamics context
     \context {
       \PianoStaff
+      % modify PianoStaff context to accept ChordNames and Dynamics context
       \accepts ChordNames
       \accepts Dynamics
+
+      % decrease the fingering font size a bit
+      \override Fingering #'font-size = #-6
     }
   }
 }
