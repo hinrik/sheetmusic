@@ -76,8 +76,8 @@ upper = \relative c'' {
   g8 b b cis cis b g4
   g8 b b cis cis e e4
 
-  d8 cis cis b~ b2
-  d8 cis cis b~ b2
+  d'1
+  d
   <d d'>1\fermata
 }
 
@@ -121,7 +121,10 @@ lower = \relative c {
   fis8 g g4 e2
   fis8 g g4 a2
 
-  R1*2
+  #(set-octavation 1)
+  r8 cis' cis b~ b2
+  r8 cis cis b~ b2
+  #(set-octavation 0)
   d,,1\fermata
 }
 
