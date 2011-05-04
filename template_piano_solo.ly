@@ -88,6 +88,11 @@
       % decrease the fingering font size a bit
       \override Fingering #'font-size = #-6
     }
+    \context {
+      \Voice
+      % keep chord fingering instructions on the left side
+      fingeringOrientations = #'(left)
+    }
   }
 }
 

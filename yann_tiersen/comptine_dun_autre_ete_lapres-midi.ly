@@ -71,7 +71,6 @@ upper = \relative c'' {
   b-1->) d-2 b'-5 b, d b' b, d b' b, d b' b,-1->( d-3 a-1-> d-3
   fis,-1->) b-2 fis'-5 fis, b fis' fis, b fis' fis, b fis' fis,-1->( b-2 g-1-> b-2
   a16-1->) d-2 a'-5 a, d a' a, d a' a, d a' a, d a'-5 g^\markup { \finger "4-5" }
-  \set fingeringOrientations = #'(left)
   <g,-1 b-2 e-4>1
 }
 
@@ -154,7 +153,6 @@ lower = \relative c' {
       }
     >>
   }
-  \set fingeringOrientations = #'(left)
   <e-5 b'-2 e-1>1
 }
 
