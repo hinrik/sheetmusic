@@ -25,7 +25,7 @@ global = {
 upper = \relative c'' {
   \clef treble
   R1*2
-  <d-2> e4 d
+  <d-2>2 e4 d
   fis8 g g4 <cis,-2>2
 
   <fis-4>8 g g4 <e-2>2
@@ -122,8 +122,8 @@ lower = \relative c {
   fis8 g g4 a2
 
   #(set-octavation 1)
-  r8 cis' cis b~ b2
-  r8 cis cis b~ b2
+  d'8 cis cis b~ b2
+  d8 cis cis b~ b2
   #(set-octavation 0)
   d,,,1\fermata
 }
