@@ -25,7 +25,7 @@ global = {
 upper = \relative c'' {
   \clef treble
   R1*2
-  d2-2 e4 d
+  <d-2> e4 d
   fis8 g g4 <cis,-2>2
 
   <fis-4>8 g g4 <e-2>2
