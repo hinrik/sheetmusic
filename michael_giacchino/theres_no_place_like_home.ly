@@ -62,7 +62,7 @@ upper = \relative c'' {
       <d,-1 fis-2>8 <e-1> e fis <fis a> a <fis a>4
       <fis-1>4 fis8 <a-1> <a-1> b <a cis>4
       <b-2>8 <g-1> g <b-2> cis b g4
-      <a-1>8 b b <cis-2> cis <e-3> e g
+      <a-1>8 b b <cis-2> cis <e-3> e <g-1>
 
       <d-3 fis-5> cis cis <b-2-1> b a <fis-2>4
       <cis'-1>8 <fis-2> fis <a,-1> a b <a cis>4
