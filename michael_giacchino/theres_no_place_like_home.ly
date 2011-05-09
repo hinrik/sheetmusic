@@ -114,7 +114,7 @@ lower = \relative c {
   <d,,-5 a'-2 d-1> <cis''-2> cis <b-1> <d,-5 fis-3 b-1> <a'-2> <fis-3 a-2>4
   <fis,-5 cis'-2>8 <fis'-1> <fis-3> <a-2> <fis a> b <fis-5 a-4 cis-2>4
   <e,-5 b'-2 e-1>8 <cis''-2> cis <b-1> <e, g b> a <e g b>4
-  <a,-5 e'-2 g-1>8 <b'-3> <g-5 b-3> <cis-2> <a-5 cis-2> <b-4 d-1> <cis-3 e-2>4
+  <a,-5 e'-2 g-1>8 <b'-4> <g-5 b-4> <cis-3> <a-5 cis-3> <b d> <cis e>4
 
   <d,-4>2 e4 d
   fis8 g g4 <cis,-4>2
