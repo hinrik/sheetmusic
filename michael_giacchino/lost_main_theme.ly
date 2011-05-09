@@ -123,21 +123,15 @@ lower = \relative c {
   <bes c d>1
   <<
     {
-      f'~^\markup { \italic "rit." }
-      f~
-      f
-    }
-  \\
-    {
-      e
-      e~
-      e
+      <e f~>^\markup { \italic "rit." }
+      <d~ f~>
+      <d f>\fermata
     }
   \\
     {
       bes~
       bes~
-      bes\fermata
+      bes
     }
   >>
 }
