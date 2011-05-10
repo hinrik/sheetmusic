@@ -8,7 +8,6 @@
 }
 
 global = {
-  \tempo 4 = 60
   \key c \major
   \time 4/4
   \numericTimeSignature
