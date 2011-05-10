@@ -12,8 +12,16 @@ global = {
   \key c \major
   \time 4/4
   \numericTimeSignature
-  s1*41
-  \bar "|."
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*5\break
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*4\break\bar "|."
 }
 
 upper = \relative c' {
@@ -22,36 +30,21 @@ upper = \relative c' {
   r8 a b a r2
   r8 a c a r2
   r8 a b a r2
-  \break
 
-  <<
-    {
-      r2 r8 a' c a
-      r2 r8 a b a
-      r2 r8 a c a
-      r2 r8 a b4
-    }
-  \\
-    {
-      r8 a, c a r2
-      r8 a b a r2
-      r8 a c a r2
-      r8 a b a r2
-    }
-  >>
-  \break
+  r8 a c a r8 a' c a
+  r8 a, b a r8 a' b a
+  r8 a, c a r8 a' c a
+  r8 a, b a r8 a' b4
 
   r4 <g' g'>4( <f f'>2)
   r4 <e e'>4( <dis dis'>2)
   r4 <g g'>4( <f f'>2
   <a a'>4 <b b'>2 <c c'>4)
-  \break
 
   r4 <g g'>4( <f f'>2)
   r4 <e e'>4( <dis dis'>2)
   r4 <g g'>4( <f f'>2
   <c c'>4 <f, f'>2 <e e'>4
-  \break
 
   a'2) <a a'>\arpeggio(
   <c c'>\arpeggio <e e'>\arpeggio)
@@ -60,12 +53,11 @@ upper = \relative c' {
   <<
     {
       <gis gis'>2\arpeggio( <cis cis'>\arpeggio
-      \break
       <g' g'>1\arpeggio)
     }
   \\
     {
-      r1
+      s1
       r2 r8 a,, c a
     }
   >>
@@ -73,25 +65,21 @@ upper = \relative c' {
   <c c'>\arpeggio) r2
   <e, a>8 b' <e, c'> <a d> r2
   <e' a>8 b' <e, c'> <a d> r2
-  \break
 
   r4 <g, g'>4( <f f'>2)
   r4 <e e'>4( <dis dis'>2)
   r4 <g g'>4( <f f'>2
   <a a'>4 <b b'>2 <c c'>4)
-  \break
 
   r4 <g g'>4( <f f'>2)
   r4 <e e'>4( <dis dis'>2)
   r4 <g g'>4( <f f'>2
   <c c'>4 <f, f'>2 <e e'>4
-  \break
 
   a'2) <a a'>\arpeggio(
   <c c'>\arpeggio <e e'>\arpeggio)
   <e, a>8 b' <e, c'> <a d> r2
   <e' a>8 b' <e, c'> <a d> r2
-  \break
 
   r2 <a, a'>\arpeggio
   <c c'>\arpeggio <e e'>\arpeggio
