@@ -22,6 +22,16 @@ global = {
   s2.*9\break
   s2.*10\break
   s2.*7\break
+  s2.*8\break
+  s2.*10\break
+  s2.*10\break
+  s2.*7\break
+  s2.*6\break
+  s2.*4
+  \time 3/8
+  s4.
+  \time 6/8
+  s2.*2\bar "|."
 }
 
 upper = \relative c' {
@@ -102,6 +112,73 @@ upper = \relative c' {
   <e e'>4~ <e e'>16 g <e e'>8 c' g
   g4. d~\fermata
   d2.
+  <e g>
+  <d g>
+  <e g>
+
+  d
+  e
+  <<
+    {
+      d4. f
+      \acciaccatura a,8 <a c e>2.
+      d4. f
+      <b, e g>2.
+      g'4. f
+      g~ g8 f e
+      d2.
+      <b e>
+
+      g'4. f
+      <c e g>2.
+      <b d>~\fermata
+      <b d>
+      <c e>
+      d4. f
+      <b, e g>2.
+      g'4. f
+    }
+  \\
+    {
+      b,2.
+      s
+      b
+      s
+      <a d>
+      s2.*3
+
+      <a d>2.
+      s2.*4
+      b2.
+      s
+      <a d>
+    }
+  >>
+  g'4.~ g8 f e
+  d2.~
+
+  d
+  <d d'>8 <e e'>4~ <e e'>4.
+  <f f'>8 <e e'>4 <f f'>8 <e e'>4
+  <d d'>8 <e e'>4~ <e e'>4.
+  <d d'>4 <e e'>8 <f f'>4.
+  <g g'> <g g'>
+  <g g'> <f f'>
+
+  e4 e16 g e'4.
+  d,2.
+  <d e d'>8 <e e'>4 <c c'>8 <d d'>8. <c c'>16
+  <b b'>4 <e e'>8 <f f'> <e e'>4
+  <d d'>8 <e e'>4 <c c'>8 <d d'>8. <c c'>16
+  <b b'>4 <e e'>8 <f f'>4.
+
+  <g g'> <g g'>
+  <g g'> <f f'>
+  <e e'>4 e16 g <e e'>8 g e
+  d4. g
+  f
+  <e g>2.
+  <b d>\fermata
 }
 
 lower = \relative c {
@@ -173,6 +250,46 @@ lower = \relative c {
   c,,8 g'16 c e8 \times 3/2 { g e }
   g, d'16 g b8 \parenthesize d4.~\fermata
   d2.
+  R2.*7
+
+  <g,, d'>2.
+  <e e'>
+  <d d'>
+  <c c'>
+  <g' d'>
+  <e b'>
+
+  <d a' d>
+  <c g' c>
+  R2.*2
+  <a' e'>2.
+  <g d'>
+  <e e'>
+  <d d'>
+  <c c'>
+  <g' d'>~
+
+  <g d'>
+  a8 e' a~ a4.
+  g,8 d' g b4 d,8
+  a e' a~ a4.
+  g,8 d'16 g b8~ b4.
+  e,,8 b'16 e g8 b4.
+  d,,8 a'16 d f8 a4.
+
+  c,,8 g'16 c e8 \times 3/2 { g e }
+  g,8 d'16 g b8 d4.
+  a,4 e'8 a4 a8
+  g, d'16 g~ g8~ g4 d8
+  a8. e'16 a8~ a4 a8
+  g,8. d'16 g8~ g4 d8
+
+  e, b'16 e g8 b4 g8
+  d, a'16 d f8 a4.
+  c,,8 g'16 c e8 \times 3/2 { g e }
+  g, d'16 g b8 d4.
+  R4.
+  R2.*2
 }
 
 dynamics = {
