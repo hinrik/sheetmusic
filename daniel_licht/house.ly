@@ -8,14 +8,17 @@
 }
 
 global = {
-  \tempo "Moderato" 4 = 48
+  \tempo 4 = 45
   \key c \major
   \time 6/8
   \numericTimeSignature
   s2.*4\break
   s2.*4\break
-  s2.*4\break
+  s2.*2
+  \tempo 4 = 49
   s2.*2\break
+  s2.*2\break
+  \tempo 4 = 47
   s2.*4\break
   s2.*3\break\bar "|."
 }
