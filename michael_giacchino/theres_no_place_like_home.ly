@@ -8,16 +8,18 @@
 }
 
 global = {
-  \tempo 4 = 60
+  \tempo 4 = 50
   \key d \major
   \time 4/4
   \numericTimeSignature
   s1*4\break
   s1*6\break\bar "||"
+  \tempo 4 = 56
   s1*4\break
   s1*4\break
   s1*4\break
   s1*4\break\bar "||"
+  \tempo 4 = 50
   s1*4\break
   s1*3\bar "|."
 }
