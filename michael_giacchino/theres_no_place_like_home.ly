@@ -14,6 +14,7 @@ global = {
   \numericTimeSignature
   s1*4\break
   s1*6\break\bar "||"
+  \set Score.tempoHideNote = ##t
   \tempo 4 = 56
   s1*4\break
   s1*4\break
@@ -131,9 +132,17 @@ lower = \relative c {
 }
 
 dynamics = {
-  s1*26\mp
-  s1*4\pp
-  s1*3\ppp
+  s1\pp
+  s1*9
+  s1-\markup { \dynamic "mp" "accel." }
+  s1*7
+  s1\mf
+  s16\< s16*78 s16\!
+  s1
+  s16\> s16*14 s16\!
+  s1*4-\markup { \dynamic "p" "rit." }
+  s1\pp
+  s1*2
 }
 
 pedal = {
