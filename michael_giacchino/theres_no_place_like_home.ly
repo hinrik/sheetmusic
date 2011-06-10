@@ -58,7 +58,7 @@ upper = \relative c'' {
       d2 <e-5>4 <d-5>
       <cis'-5>8 <b-4> <a-5-3>4 cis,2
       <g'-2 d'-5>2 <e-1 g-2 b-3 e-5>4 <d-1 g-2 b-3 d-5>
-      <b-1 b'-5>2 <d-1 d'-5>4 <cis-1 cis'-5>
+      <b-1 b'-5>2 <d'-5>4 <cis,-1 cis'-5>
     }
   \\
     {
@@ -70,7 +70,7 @@ upper = \relative c'' {
       <d-3 fis-5> cis cis <b-2-1> b a <fis-2>4
       <cis'-1>8 <fis-2> fis <a,-1> a b <a cis>4
       <d-1>8 <cis-2> cis b r2
-      <g'-4>8 b, b <cis-1> <cis-\tweak #'extra-offset #'(-0.8 . 0)-1> <d-1> <e-2>4
+      <g'-4>8 b, b <cis-1> cis <d-1> <e-2>4
     }
   >>
 
