@@ -13,7 +13,7 @@ global = {
   \numericTimeSignature
   s1*32
   \tempo 4 = 80
-  s1*30
+  s1*31
   \bar "||"
   \key c \minor
 }
@@ -251,8 +251,8 @@ lower = \relative c, {
 
   <<
     {
-      <c,, e g>1~
-      <c e g>
+      <c,, es g>1~
+      <c es g>
       <d g b>~
 
       <d g b>
