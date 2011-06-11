@@ -233,4 +233,4 @@ pedal = {
 chordnames = \chordmode {
 }
 
-\include "../template_piano_solo.ly"
+\include "../../template_piano_solo.ly"
