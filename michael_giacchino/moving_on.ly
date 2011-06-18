@@ -135,12 +135,7 @@ upper = \relative c' {
       \change Staff = "Staff_pfUpper"
       \stemDown
       fis fis a a b cis4
-      \change Staff = "Staff_pfLower"
-      \stemUp
-      g8
-      \change Staff = "Staff_pfUpper"
-      \stemDown
-      b b cis cis b g4
+      g8 b b cis cis b g4
       g8 b b cis cis e e g
 
       d cis cis b b a fis4
