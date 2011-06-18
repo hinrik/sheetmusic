@@ -12,46 +12,59 @@ global = {
   \key d \major
   \time 4/4
   \numericTimeSignature
-  s1*27
-  \bar "||"
-  s1*24
-  \bar "||"
-  s1*32
-  \bar "||"
-  s1*5
-  \bar "||"
-  s1*19
-  \bar "|."
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*3\bar "||"\break
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*4\bar "||"\break
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*3\break
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*5\bar "||"\break
+  s1*3\break
+  s1*2\bar "||"
+  s1*2\break
+  s1*4\break
+  s1*4\break
+  s1*4\break
+  s1*5\bar "|."
 }
 
 upper = \relative c' {
   \clef treble
   R1*4
-  \break
 
   <fis a cis d>4 fis a2
   <fis g a>4 cis' a2
   <fis a>4 fis a2
   <d, fis g b>4 cis' b2
-  \break
 
   <fis gis cis>2. e8 g
   fis2 d4 <d a' d>
   <e e'> <fis fis'> <g g'>2
   <a a'>4 <b b'> <cis cis'> <d, fis a d>~
-  \break
 
   <d fis a d>1
   g'
   a
   d,
-  \break
 
   <fis, cis'>2. <cis' e>8 <e g>
   <d e fis>1
   d4 a'2.
   <g, cis d g>2 a
-  \break
 
   <d a'>1
   <<
@@ -65,7 +78,6 @@ upper = \relative c' {
   \\
     { r8 e e d d2 }
   >>
-  \break
 
   <<
     { r4 g,,2. }
@@ -74,19 +86,16 @@ upper = \relative c' {
   >>
   b''8 cis b <b, b'>2~ <b b'>8
   <g d' g>2 <e g cis e>
-  \break
 
   fis'4 d2.
   fis4 cis2.
   g'4 e2.
   g4 a2.
-  \break
 
   d4 a2.
   cis4 a2.
   d4 e2.
   d4 cis2.
-  \break
 
   <<
     {
@@ -94,25 +103,21 @@ upper = \relative c' {
       fis4 cis2.
       g'4 e2.
       g4 a2.
-      \break
 
       d4 a2.
       cis4 a2.
       d4 e2.
       d4 cis2.
-      \break
 
       d,2 e4 d
       fis8 g g4 cis,2
       fis8 g g4 e2
       fis8 g g4 a2
-      \break
 
       d,2 e4 d
       cis'8 b a4 cis,2
       d'2 e4 d
       b2 d4 e
-      \break
 
       fis,1
     }
@@ -179,7 +184,6 @@ upper = \relative c' {
     { <d fis>1 }
   >>
   b4 <b e g>2 e4
-  \break
 
   <e fis a>4 d <fis fis'>8 <e e'> <e e'> <d d'>
   <b' b'>4 d, g d
@@ -195,18 +199,15 @@ upper = \relative c' {
     }
   >>
   r4 <cis' cis'>2
-  \break
 
   <d, d'>8 <e e'> <e e'> <fis fis'> <fis fis'> <g g'> <g g'>4
   <fis fis'> <d d'>2.
   <dis dis'>8 <fis fis'> <fis fis'> <b b'> <b b'> <dis dis'> <dis dis'>4
   <e e'> <b b'>2.
-  \break
 
   <d d'>8 <c c'> <c c'> <g g'> <g g'> <c c'> <c c'>4
   <d d'>8 <b b'> <b b'> <g g'> <g g'> <d d'> <d d'>4
   <d' d'>8 <c c'> <c c'> <g g'> <g g'> <e e'> <e e'>4
-  \break
 
   <<
     {
@@ -223,37 +224,31 @@ upper = \relative c' {
       r4 d fis cis'
     }
   >>
-  \break
 
   <b, e g>2~ <b e g>8 a' g d
   <e fis a>2. <cis fis cis'>4
   <b e g b>2~ <b e g b>8 a' g d
   e4 fis2 d4
-  \break
 
   <d fis> g2 r4
   <e g c>4 <e g>2.
   <d g b>4 g2.
   <dis fis b>4 <dis fis>2.
-  \break
 
   <g b>4 <e g>2.
   <c' c'>4 <g g'>2.
   <b b'>4 <g g'>2.
   <e g e'>2 <g cis g'>
   <a d a'>1
-  \break
 
   <fis d' fis>4 <d fis a d>2.
   <g d' e g>4 <d fis a d>2.
   <a' d a'>4 <d, e a d>2.
-  \break
 
   <e' b'>1
   <a, d>
   <d, fis a d>
   <cis fis a cis>
-  \break
 
   <<
     {
@@ -261,13 +256,11 @@ upper = \relative c' {
       <fis, a cis>8 fis' fis a a b cis4
       <a, d>8 e' e fis fis a a4
       <fis, a cis>8 fis' fis a a b cis4
-      \break
 
       d,8 e e fis fis g g4
       fis8 a a b b cis cis4
       <a, d>8 e' e fis fis g g b
       d cis cis b b a e4
-      \break
     }
   \\
     {
@@ -275,6 +268,7 @@ upper = \relative c' {
       fis4 cis'8 a2~ a8
       a4 fis8 a4 fis8 a fis
       fis4 cis'8 a2~ a8
+
       <d, g a>4 g8 a4 g8 a g
       <d fis>4 g8 fis4 g8 <fis a>4
       a4 g8 a4 g8 a g
@@ -285,9 +279,8 @@ upper = \relative c' {
   <e e'>4 <g g'>8 <fis fis'> <cis cis'>4 <fis fis'>8 e'~
   e8 r2 <e, e'>4 <g g'>8
   <fis fis'> <b d b'>4 <cis fis a> <fis, a fis'>~ <fis a fis'>8
-
   <g d' g>2 <b b'>4 <a a'>
-  \break
+
   <fis fis'>2 <a a'>4 <g g'>
   <fis fis'>2 <g g'>4 <e e'>
   <d a' d>2 <cis cis'>
