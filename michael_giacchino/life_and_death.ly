@@ -101,11 +101,11 @@ lower = \relative c {
   <bes d f bes>
   <a d f a>
 
-  <es' g bes>
+  <es'' g bes>
   <d f bes>
   <es g bes>
   <d, f bes>2 <c f a>
-  <bes, bes'>1
+  <bes,, bes'>1
 }
 
 dynamics = {
