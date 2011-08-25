@@ -15,7 +15,6 @@
 
 %upper = \relative c' {
 %  \clef treble
-%  b
 %}
 
 %lower = \relative c {
@@ -36,6 +35,7 @@
 %}
 
 %vocal = \relative c'' {
+%  \clef treble
 %}
 
 %text = \lyricmode {
