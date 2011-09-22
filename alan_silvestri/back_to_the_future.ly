@@ -6,8 +6,8 @@
 }
 
 global = {
-  \tempo "Majestically"
-  \key c \major
+  \tempo "Majestically" 4 = 76
+  \key des \major
   \time 4/4
   \numericTimeSignature
   s1*2
@@ -36,7 +36,7 @@ global = {
   s1*4\break
 }
 
-upper = \relative c' {
+upper = \transpose c des \relative c' {
   \clef treble
   r4 c g'4. c8
   bes4.. a32 g \times 2/3 { a4 g f }
@@ -79,7 +79,7 @@ upper = \relative c' {
   <b d g>
 }
 
-lower = \relative c {
+lower = \transpose c des \relative c {
   \clef bass
   r4 c g'4. c8
   bes4 g, a bes
