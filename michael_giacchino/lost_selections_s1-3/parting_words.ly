@@ -4,6 +4,7 @@
   title = "Parting Words"
   subtitle = \markup { "from" \italic "Lost" }
   composer = "Michael Giacchino"
+  tagline = ""
 }
 
 global = {

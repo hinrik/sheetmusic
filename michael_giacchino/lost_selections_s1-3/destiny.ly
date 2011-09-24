@@ -4,6 +4,7 @@
   title = "Destiny"
   subtitle = \markup { "from" \italic "Lost" }
   composer = "Michael Giacchino"
+  tagline = ""
 }
 
 global = {

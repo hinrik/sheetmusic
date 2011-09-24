@@ -3,6 +3,7 @@
 \header {
   title = "La valse d'Amélie"
   composer = "Yann Tiersen"
+  tagline = ""
 }
 
 global = {

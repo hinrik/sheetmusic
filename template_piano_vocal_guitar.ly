@@ -4,6 +4,7 @@
 %  title = "Foo"
 %  subtitle = "Bar"
 %  composer = "Baz"
+%  tagline = ""
 %}
 
 %global = {

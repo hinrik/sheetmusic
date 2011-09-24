@@ -4,6 +4,7 @@
   title = "Take a Hike"
   subtitle = \markup { "from" \italic "Lost" }
   composer = "Michael Giacchino"
+  tagline = ""
 }
 
 global = {

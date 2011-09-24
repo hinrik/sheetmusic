@@ -4,6 +4,7 @@
   title = "Romancing the Cage"
   subtitle = \markup { "from" \italic "Lost" }
   composer = "Michael Giacchino"
+  tagline = ""
 }
 
 global = {

@@ -4,6 +4,7 @@
   title = "The Surface of the Sun / Adagio in D minor"
   subtitle = \markup { "from the motion picture" \italic "Sunshine" }
   composer = "John Murphy"
+  tagline = ""
 }
 
 global = {

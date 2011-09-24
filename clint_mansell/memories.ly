@@ -5,6 +5,7 @@
   subtitle = \markup { "from" \italic "Moon" }
   composer = "Clint Mansell"
   arranger = "Originally transcribed by K. C. Hiew"
+  tagline = ""
 }
 
 global = {

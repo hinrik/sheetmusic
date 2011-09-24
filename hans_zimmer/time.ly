@@ -4,6 +4,7 @@
   title = "Time"
   subtitle = \markup { "from" \italic "Inception" }
   composer = "Hans Zimmer"
+  tagline = ""
 }
 
 global = {

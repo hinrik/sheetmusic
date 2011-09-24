@@ -4,6 +4,7 @@
   title = "Life and Death"
   subtitle = \markup { "from" \italic "Lost" }
   composer = "Michael Giacchino"
+  tagline = ""
 }
 
 global = {

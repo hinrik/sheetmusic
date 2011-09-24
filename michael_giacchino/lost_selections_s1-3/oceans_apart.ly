@@ -4,6 +4,7 @@
   title = "Ocean's Apart"
   subtitle = \markup { "from" \italic "Lost" }
   composer = "Michael Giacchino"
+  tagline = ""
 }
 
 global = {

@@ -4,6 +4,7 @@
   title = "Comptine d'un autre été: l'après-midi"
   subtitle = \markup { "from" \italic "Amélie" }
   composer = "Yann Tiersen"
+  tagline = ""
 }
 
 global = {

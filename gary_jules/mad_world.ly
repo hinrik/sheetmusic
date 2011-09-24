@@ -4,6 +4,7 @@
   title = "Mad World"
   subtitle = \markup { "from" \italic "Donnie Darko" }
   composer = "Gary Jules"
+  tagline = ""
 }
 
 global = {

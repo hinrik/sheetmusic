@@ -4,6 +4,7 @@
   title = "Win One for the Reaper"
   subtitle = \markup { "from" \italic "Lost" }
   composer = "Michael Giacchino"
+  tagline = ""
 }
 
 global = {

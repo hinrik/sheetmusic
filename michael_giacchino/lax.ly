@@ -5,6 +5,7 @@
   subtitle = \markup { "from" \italic "Lost" }
   composer = "Michael Giacchino"
   arranger = "Originally transcribed by J. Wang"
+  tagline = ""
 }
 
 global = {

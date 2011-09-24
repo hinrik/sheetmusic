@@ -5,6 +5,7 @@
   subtitle = \markup { "from" \italic "The Dark Knight" }
   composer = "Hans Zimmer and James Newton Howard"
   arranger = "Arranged by Jack Dolman"
+  tagline = ""
 }
 
 global = {

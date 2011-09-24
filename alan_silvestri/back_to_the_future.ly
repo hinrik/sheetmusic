@@ -3,6 +3,7 @@
 \header {
   title = "Back To The Future"
   composer = "Alan Silvestri"
+  tagline = ""
 }
 
 global = {

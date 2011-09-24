@@ -4,6 +4,7 @@
   title = "Primavera"
   subtitle = \markup { \italic "Divenire" }
   composer = "Ludovico Einaudi"
+  tagline = ""
 }
 
 global = {

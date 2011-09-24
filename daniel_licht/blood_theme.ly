@@ -5,6 +5,7 @@
   subtitle = \markup { "from" \italic "Dexter" }
   composer = "Daniel Licht"
   arranger = "Original transcription by Olga Blue"
+  tagline = ""
 }
 
 global = {

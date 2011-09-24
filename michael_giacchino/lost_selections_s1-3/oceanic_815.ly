@@ -4,6 +4,7 @@
   title = "Oceanic 815"
   subtitle = \markup { "from" \italic "Lost" }
   composer = "Michael Giacchino"
+  tagline = ""
 }
 
 global = {
