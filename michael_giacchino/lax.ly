@@ -1,4 +1,4 @@
-\version "2.12.2"
+\version "2.14.2"
 
 \header {
   title = "LAX"
@@ -158,7 +158,7 @@ lower = \relative c {
   d c c a d c c d
   e d d a e' f f g
 
-  #(set-octavation 1)
+  \ottava #1
   <g c>1
   <g b>
   <g c>
@@ -167,7 +167,7 @@ lower = \relative c {
   <a c>
   <a d>
   <b d>
-  #(set-octavation 0)
+  \ottava #0
 
   R1*2
   <c,,, c'>1\fermata

@@ -1,4 +1,4 @@
-\version "2.12.2"
+\version "2.14.2"
 
 \header {
   title = "House"
@@ -28,7 +28,7 @@ upper = \relative c''' {
   \clef treble
   R2.
   r4.
-  #(set-octavation 1)
+  \ottava #1
   a4( c8
   e2.
   fis4. gis4.)
@@ -37,7 +37,7 @@ upper = \relative c''' {
   e d4 c8
   e2.)
   fis4.( gis)
-  #(set-octavation 0)
+  \ottava #0
 
   <<
     {

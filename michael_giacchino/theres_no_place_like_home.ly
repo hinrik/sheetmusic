@@ -1,4 +1,4 @@
-\version "2.12.2"
+\version "2.14.2"
 
 \header {
   title = "There's No Place Like Home"
@@ -125,10 +125,10 @@ lower = \relative c {
   <fis-2>8 g g4 <e-4>2
   fis8 g g4 a2
 
-  #(set-octavation 1)
+  \ottava #1
   d'8 cis cis b~ b2
   d8 cis cis b~ b2
-  #(set-octavation 0)
+  \ottava #0
   d,,,1\fermata
 }
 

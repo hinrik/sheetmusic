@@ -1,4 +1,4 @@
-\version "2.12.2"
+\version "2.14.2"
 
 \header {
   title = "Win One for the Reaper"
@@ -72,9 +72,9 @@ lower = \relative c {
   \repeat volta 2 { \sadchords }
 
   \relative c' {
-    #(set-octavation 1)
+    \ottava #1
     \sadchords
-    #(set-octavation 0)
+    \ottava #0
     bes,,1\fermata
   }
 }

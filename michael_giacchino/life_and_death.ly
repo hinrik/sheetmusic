@@ -1,4 +1,4 @@
-\version "2.12.2"
+\version "2.14.2"
 
 \header {
   title = "Life and Death"
@@ -59,9 +59,9 @@ upper = \relative c' {
   f4 es8 d~ d es f4)
   f4( es8 f~ f es f es
   d2 c,)
-  #(set-octavation -1)
+  \ottava #-1
   <bes, d f bes>1
-  #(set-octavation 0)
+  \ottava #0
 }
 
 lower = \relative c {

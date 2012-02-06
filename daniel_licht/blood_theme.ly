@@ -1,4 +1,4 @@
-\version "2.12.2"
+\version "2.14.2"
 
 \header {
   title = "Blood theme"
@@ -85,9 +85,9 @@ upper = \relative c' {
   <c c'>\arpeggio <e e'>\arpeggio
   r2 <gis, gis'>\arpeggio
   <c c'>\arpeggio
-  #(set-octavation 1)
+  \ottava #1
   <g' g'>\arpeggio\fermata
-  #(set-octavation 0)
+  \ottava #0
 }
 
 lower = \relative c {
