@@ -62,7 +62,7 @@ upper = \relative c''' {
       r a c a c a r b gis b <gis e'> b
 
       r c~ c4 r16 c~ c4
-      r16 a~ a4 r16 a~ a4
+      r16 a~ a4 r16 b~ b4
     }
   >>
   c''8 <c, e a>4 c'8 <c, e as>4
