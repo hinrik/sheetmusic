@@ -52,7 +52,7 @@
 
 \score {
   \unfoldRepeats {
-    \new Staff = "UkuleleStaff" << \global \notes >>
+    \new Staff << \global \notes >>
   }
   \midi {
     % the following is a workaround to prevent multiple voices from being
