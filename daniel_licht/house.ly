@@ -9,7 +9,7 @@
 }
 
 global = {
-  \tempo 4 = 45
+  \tempo "Moderato" 4 = 45
   \key c \major
   \time 6/8
   \numericTimeSignature
@@ -70,7 +70,7 @@ upper = \relative c''' {
 
   c'8 <c, e a>4 c'8 <c, e as>4
   f8 <a, c g'>4 e'8 <b gis'>4
-  c'8 <c, e a>4\arpeggio~ <c e a>4.\fermata
+  c'8 <c, e a>4\arpeggio~ <c e a>4._\fermata
 }
 
 lower = \relative c' {
@@ -124,7 +124,7 @@ lower = \relative c' {
 
   <a a'>( <fis fis'>
   <f f'> <e e'>
-  <a a'>2)
+  <a a'>2)_\fermata
 }
 
 dynamics = {
