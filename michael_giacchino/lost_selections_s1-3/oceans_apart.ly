@@ -9,7 +9,7 @@
 
 global = {
   \tempo 4 = 60
-  \key ges \major
+  \key es \minor
   \time 4/4
   \numericTimeSignature
   s1*21
