@@ -155,16 +155,11 @@ upper = \relative c''' {
   <bes, d f>2 \times 2/3 { f''4 f f }
   <c f a c>1~
   q2 <bes bes'>
-  %\repeat tremolo 8 <bes es g bes>8
+  \repeat tremolo 32 <bes es g bes>32
 
-  %\repeat tremolo 8 q8
-  %\repeat tremolo 8 q8
-  %\repeat tremolo 8 <bes d f bes>8
-  <bes es g bes>1
-
-  q
-  q
-  <bes d f bes>
+  \repeat tremolo 32 q32
+  \repeat tremolo 32 q32
+  \repeat tremolo 32 <bes d f bes>32
   q1\fermata
 }
 
@@ -263,14 +258,10 @@ lower = \relative c' {
   <bes d f>2 bes,
   <es bes' g'>1~
 
-  %q2 \repeat tremolo 4 <es es'>8.
-  %\repeat tremolo 4 q8 \repeat tremolo 4 q8
-  %\repeat tremolo 4 q8 \repeat tremolo 4 q8
-  %\repeat tremolo 8 <f f'>8
-  q2 <es es'>2.
-  q2 q2
-  q2 q2
-  <f f'>1
+  q2 \repeat tremolo 16 <es es'>32.
+  \repeat tremolo 16 q32 \repeat tremolo 16 q32
+  \repeat tremolo 16 q32 \repeat tremolo 16 q32
+  \repeat tremolo 32 <f f'>32
 
   q1
   <f es'>~
@@ -289,8 +280,7 @@ lower = \relative c' {
       q
     }
   >>
-  %\repeat tremolo 8 <bes' f' bes>8
-  <bes' f' bes>1
+  \repeat tremolo 32 <bes' f' bes>32
   q1\fermata
 }
 
